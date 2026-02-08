@@ -1,8 +1,0 @@
-command_id: 7E0.2128
-test_cases:
-- expected_values:
-    IS_ODO_V3: 165132
-  response: 7E805612802850C
-- expected_values:
-    IS_ODO_V3: 165197
-  response: 7E805612802854D
