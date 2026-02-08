@@ -1,7 +1,7 @@
 command_id: 700.708.22107B
 test_cases:
 - expected_values:
-    IS_EOT_V2: 39
+    IS_EOT: 39
   response: |-
     708102262107B000004
     70821950100007ED883
@@ -9,7 +9,7 @@ test_cases:
     7082381AD8000000085
     708244F79793F3F0005
 - expected_values:
-    IS_EOT_V2: 39
+    IS_EOT: 39
   response: |-
     708102262107B000004
     70821950100007ED883
@@ -17,7 +17,7 @@ test_cases:
     7082381C18000000084
     708244F79793F3F0002
 - expected_values:
-    IS_EOT_V2: 39
+    IS_EOT: 39
   response: |-
     708102262107B000004
     70821950100007ED983
@@ -25,7 +25,7 @@ test_cases:
     7082381E48000000084
     708244F79793F3F0000
 - expected_values:
-    IS_EOT_V2: 39
+    IS_EOT: 39
   response: |-
     708102262107B000004
     70821950100007EDD83
@@ -33,7 +33,7 @@ test_cases:
     70823821A7FFF000084
     708244F79793F3F0000
 - expected_values:
-    IS_EOT_V2: 38
+    IS_EOT: 38
   response: |-
     708102262107B000004
     70821950100007EE584

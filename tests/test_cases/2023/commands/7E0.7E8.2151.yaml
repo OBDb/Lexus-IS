@@ -1,7 +1,7 @@
 command_id: 7E0.7E8.2151
 test_cases:
 - expected_values:
-    IS_EOT: 23
+    IS_EOT_V2: 23
     IS_PREV_TRIP_DST: 0
     IS_VVTOT: 25
   response: |-
@@ -11,7 +11,7 @@ test_cases:
     7E823CA000081DB8A10
     7E82480D98000A00000
 - expected_values:
-    IS_EOT: 65
+    IS_EOT_V2: 65
     IS_PREV_TRIP_DST: 0
     IS_VVTOT: 91
   response: |-
@@ -21,7 +21,7 @@ test_cases:
     7E82338000081DB8B56
     7E82480008000800000
 - expected_values:
-    IS_EOT: 63
+    IS_EOT_V2: 63
     IS_PREV_TRIP_DST: 1.72
     IS_VVTOT: 90
   response: |-
@@ -31,7 +31,7 @@ test_cases:
     7E8234D000081DB8C3D
     7E82480008000800000
 - expected_values:
-    IS_EOT: 71
+    IS_EOT_V2: 71
     IS_PREV_TRIP_DST: 6.48
     IS_VVTOT: 89
   response: |-
@@ -41,7 +41,7 @@ test_cases:
     7E82328000081DB8AC8
     7E82480008000808000
 - expected_values:
-    IS_EOT: 71
+    IS_EOT_V2: 71
     IS_PREV_TRIP_DST: 0.01
     IS_VVTOT: 87
   response: |-
@@ -51,7 +51,7 @@ test_cases:
     7E823ED002B810A8EAD
     7E824834182B0000000
 - expected_values:
-    IS_EOT: 72
+    IS_EOT_V2: 72
     IS_PREV_TRIP_DST: 0.16
     IS_VVTOT: 88
   response: |-
@@ -61,7 +61,7 @@ test_cases:
     7E823BF002B810A8EAD
     7E82482E382D0000000
 - expected_values:
-    IS_EOT: 67
+    IS_EOT_V2: 67
     IS_PREV_TRIP_DST: 1.8
     IS_VVTOT: 89
   response: |-
@@ -71,7 +71,7 @@ test_cases:
     7E82374000080068BAB
     7E82482228312800000
 - expected_values:
-    IS_EOT: 40
+    IS_EOT_V2: 40
     IS_PREV_TRIP_DST: 0.55
     IS_VVTOT: 57
   response: |-
@@ -81,7 +81,7 @@ test_cases:
     7E8237E00517E1A8BAF
     7E82481A78184000000
 - expected_values:
-    IS_EOT: 41
+    IS_EOT_V2: 41
     IS_PREV_TRIP_DST: 0.88
     IS_VVTOT: 62
   response: |-
@@ -91,7 +91,7 @@ test_cases:
     7E82374005180008BAF
     7E82481A8809F000000
 - expected_values:
-    IS_EOT: 52
+    IS_EOT_V2: 52
     IS_PREV_TRIP_DST: 0
     IS_VVTOT: 65
   response: |-
@@ -101,7 +101,7 @@ test_cases:
     7E8239300007FE28BAB
     7E82481AB8333800000
 - expected_values:
-    IS_EOT: 53
+    IS_EOT_V2: 53
     IS_PREV_TRIP_DST: 0
     IS_VVTOT: 75
   response: |-
@@ -111,7 +111,7 @@ test_cases:
     7E82370002D80598BAB
     7E824818A8273800000
 - expected_values:
-    IS_EOT: 55
+    IS_EOT_V2: 55
     IS_PREV_TRIP_DST: 0
     IS_VVTOT: 77
   response: |-
@@ -121,7 +121,7 @@ test_cases:
     7E82364003F807C8BAB
     7E82481A68273800000
 - expected_values:
-    IS_EOT: 58
+    IS_EOT_V2: 58
     IS_PREV_TRIP_DST: 0
     IS_VVTOT: 70
   response: |-
@@ -131,7 +131,7 @@ test_cases:
     7E823F0000082C18AC8
     7E8248260832B000000
 - expected_values:
-    IS_EOT: 66
+    IS_EOT_V2: 66
     IS_PREV_TRIP_DST: 0.58
     IS_VVTOT: 86
   response: |-
@@ -141,7 +141,7 @@ test_cases:
     7E8237A001C80AF8B62
     7E824820D815A000000
 - expected_values:
-    IS_EOT: 70
+    IS_EOT_V2: 70
     IS_PREV_TRIP_DST: 3.53
     IS_VVTOT: 89
   response: |-
@@ -151,7 +151,7 @@ test_cases:
     7E823F800617F6A8B62
     7E82481AB805A000000
 - expected_values:
-    IS_EOT: 70
+    IS_EOT_V2: 70
     IS_PREV_TRIP_DST: 5.42
     IS_VVTOT: 87
   response: |-
@@ -161,7 +161,7 @@ test_cases:
     7E8230800617F6A8B62
     7E8248181803E000000
 - expected_values:
-    IS_EOT: 80
+    IS_EOT_V2: 80
     IS_PREV_TRIP_DST: 8.31
     IS_VVTOT: 88
   response: |-
@@ -171,7 +171,7 @@ test_cases:
     7E8232600537FC68B15
     7E824817B8076000000
 - expected_values:
-    IS_EOT: 75
+    IS_EOT_V2: 75
     IS_PREV_TRIP_DST: 4.76
     IS_VVTOT: 88
   response: |-
@@ -181,7 +181,7 @@ test_cases:
     7E8236800CF7F358B5E
     7E82481E28116000000
 - expected_values:
-    IS_EOT: 80
+    IS_EOT_V2: 80
     IS_PREV_TRIP_DST: 9.11
     IS_VVTOT: 89
   response: |-
@@ -191,7 +191,7 @@ test_cases:
     7E8231100197EF78B5E
     7E824819381FB800000
 - expected_values:
-    IS_EOT: 96
+    IS_EOT_V2: 96
     IS_PREV_TRIP_DST: 28.04
     IS_VVTOT: 90
   response: |-
@@ -201,7 +201,7 @@ test_cases:
     7E82365001E7F078B5E
     7E82481BF805A000000
 - expected_values:
-    IS_EOT: 42
+    IS_EOT_V2: 42
     IS_PREV_TRIP_DST: 1.88
     IS_VVTOT: 68
   response: |-
@@ -211,7 +211,7 @@ test_cases:
     7E82377000080008C96
     7E82481C780D6000000
 - expected_values:
-    IS_EOT: 33
+    IS_EOT_V2: 33
     IS_PREV_TRIP_DST: 0
     IS_VVTOT: 46
   response: |-
@@ -221,7 +221,7 @@ test_cases:
     7E82320004181D38BA3
     7E82481E3827C000000
 - expected_values:
-    IS_EOT: 71
+    IS_EOT_V2: 71
     IS_PREV_TRIP_DST: 1.07
     IS_VVTOT: 90
   response: |-
@@ -231,7 +231,7 @@ test_cases:
     7E8230800197FFD8ABE
     7E824816780F2000000
 - expected_values:
-    IS_EOT: 85
+    IS_EOT_V2: 85
     IS_PREV_TRIP_DST: 34.81
     IS_VVTOT: 88
   response: |-
@@ -241,7 +241,7 @@ test_cases:
     7E823E2001980068ABE
     7E82481A58031000000
 - expected_values:
-    IS_EOT: 35
+    IS_EOT_V2: 35
     IS_PREV_TRIP_DST: 0.04
     IS_VVTOT: 45
   response: |-
@@ -251,7 +251,7 @@ test_cases:
     7E82304000081398BAB
     7E82482228251000000
 - expected_values:
-    IS_EOT: 90
+    IS_EOT_V2: 90
     IS_PREV_TRIP_DST: 6.53
     IS_VVTOT: 93
   response: |-
@@ -261,7 +261,7 @@ test_cases:
     7E8239D0038801A8A7B
     7E82481188000000000
 - expected_values:
-    IS_EOT: 60
+    IS_EOT_V2: 60
     IS_PREV_TRIP_DST: 0.5
     IS_VVTOT: 80
   response: |-
@@ -271,7 +271,7 @@ test_cases:
     7E823ED000081DB8DBE
     7E82486748259000000
 - expected_values:
-    IS_EOT: 76
+    IS_EOT_V2: 76
     IS_PREV_TRIP_DST: 29.97
     IS_VVTOT: 88
   response: |-
@@ -281,7 +281,7 @@ test_cases:
     7E8236100597F628BA3
     7E82482228031000000
 - expected_values:
-    IS_EOT: 60
+    IS_EOT_V2: 60
     IS_PREV_TRIP_DST: 3.67
     IS_VVTOT: 87
   response: |-
@@ -291,7 +291,7 @@ test_cases:
     7E8232600497F4A8B62
     7E82481F78031000000
 - expected_values:
-    IS_EOT: 60
+    IS_EOT_V2: 60
     IS_PREV_TRIP_DST: 6.68
     IS_VVTOT: 88
   response: |-
@@ -301,7 +301,7 @@ test_cases:
     7E8235800497F4A8B62
     7E82481B68031000000
 - expected_values:
-    IS_EOT: 55
+    IS_EOT_V2: 55
     IS_PREV_TRIP_DST: 0.46
     IS_VVTOT: 67
   response: |-
@@ -311,7 +311,7 @@ test_cases:
     7E82392000080F98BFE
     7E82481D1820C000000
 - expected_values:
-    IS_EOT: 65
+    IS_EOT_V2: 65
     IS_PREV_TRIP_DST: 2.45
     IS_VVTOT: 88
   response: |-
@@ -321,7 +321,7 @@ test_cases:
     7E82380000081DB8B15
     7E82481FF8259000000
 - expected_values:
-    IS_EOT: 85
+    IS_EOT_V2: 85
     IS_PREV_TRIP_DST: 40.89
     IS_VVTOT: 88
   response: |-
@@ -331,7 +331,7 @@ test_cases:
     7E82356005C7FC88A7B
     7E82481A48031000000
 - expected_values:
-    IS_EOT: 92
+    IS_EOT_V2: 92
     IS_PREV_TRIP_DST: 9.07
     IS_VVTOT: 88
   response: |-
@@ -341,7 +341,7 @@ test_cases:
     7E8235D00607FF98AC8
     7E82482078083000000
 - expected_values:
-    IS_EOT: 50
+    IS_EOT_V2: 50
     IS_PREV_TRIP_DST: 0
     IS_VVTOT: 66
   response: |-
@@ -351,7 +351,7 @@ test_cases:
     7E823D5000081DB8BAB
     7E82483FD8571800000
 - expected_values:
-    IS_EOT: 85
+    IS_EOT_V2: 85
     IS_PREV_TRIP_DST: 38.52
     IS_VVTOT: 88
   response: |-
@@ -361,7 +361,7 @@ test_cases:
     7E823DC006680008A2E
     7E82481EC8000000000
 - expected_values:
-    IS_EOT: 97
+    IS_EOT_V2: 97
     IS_PREV_TRIP_DST: 41.21
     IS_VVTOT: 87
   response: |-
@@ -371,7 +371,7 @@ test_cases:
     7E823A900687F608A77
     7E82482228091000000
 - expected_values:
-    IS_EOT: 87
+    IS_EOT_V2: 87
     IS_PREV_TRIP_DST: 6.87
     IS_VVTOT: 87
   response: |-
@@ -381,7 +381,7 @@ test_cases:
     7E8233E002580938E07
     7E82482AA809F000000
 - expected_values:
-    IS_EOT: 67
+    IS_EOT_V2: 67
     IS_PREV_TRIP_DST: 1.03
     IS_VVTOT: 87
   response: |-
@@ -391,7 +391,7 @@ test_cases:
     7E82377007780278C45
     7E824824E81FB000000
 - expected_values:
-    IS_EOT: 47
+    IS_EOT_V2: 47
     IS_PREV_TRIP_DST: 2.46
     IS_VVTOT: 80
   response: |-

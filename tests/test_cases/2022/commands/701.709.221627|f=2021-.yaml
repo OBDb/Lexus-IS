@@ -1,18 +1,14 @@
-command_id: 701.709.221627
+command_id: 701.709.221627|f=2021-
 test_cases:
 - expected_values:
-    IS_TF1_PAN: 74.75
-    IS_TFP_T: 23.75
+    IS_ATF_T_PAN_GEN3: 23.75
   response: 709056216273FC0
 - expected_values:
-    IS_TF1_PAN: 77
-    IS_TFP_T: 25
+    IS_ATF_T_PAN_GEN3: 25
   response: '709056216274100'
 - expected_values:
-    IS_TF1_PAN: 80.375
-    IS_TFP_T: 26.875
+    IS_ATF_T_PAN_GEN3: 26.875
   response: '7090562162742E0'
 - expected_values:
-    IS_TF1_PAN: 221
-    IS_TFP_T: 105
+    IS_ATF_T_PAN_GEN3: 105
   response: '709056216279100'

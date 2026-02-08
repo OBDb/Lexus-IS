@@ -1,4 +1,4 @@
-command_id: 7B0.7B8.2103
+command_id: 7B0.7B8.2103|f=-2020
 test_cases:
 - expected_values:
     IS_TIRE_FL_SPD: 0

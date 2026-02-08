@@ -1,5 +1,5 @@
-command_id: 7D2.709.220103|fc=1
+command_id: 701.709.220103
 test_cases:
 - expected_values:
-    IS_ODO_V2: 9943
+    IS_ODO: 9943
   response: 70907620103020026D7

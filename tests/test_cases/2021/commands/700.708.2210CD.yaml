@@ -1,18 +1,14 @@
 command_id: 700.708.2210CD
 test_cases:
 - expected_values:
-    IS_LFP: 100
     IS_LFPS: -2881.9
   response: 708056210CD8F6D
 - expected_values:
-    IS_LFP: 100
     IS_LFPS: -2873.2
   response: 708056210CD8FC4
 - expected_values:
-    IS_LFP: 100
     IS_LFPS: -2872.7
   response: 708056210CD8FC9
 - expected_values:
-    IS_LFP: 100
     IS_LFPS: -2855.8
   response: 708056210CD9072

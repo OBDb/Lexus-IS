@@ -1,7 +1,7 @@
 command_id: 700.708.22107B
 test_cases:
 - expected_values:
-    IS_EOT_V2: 28
+    IS_EOT: 28
   response: |-
     708102262107B000000
     70821000000007F4382
@@ -9,7 +9,7 @@ test_cases:
     7082380007FFE000085
     7082444737639390104
 - expected_values:
-    IS_EOT_V2: 28
+    IS_EOT: 28
   response: |-
     708102262107B000000
     70821000000007F4382
@@ -17,7 +17,7 @@ test_cases:
     7082380007FFE000085
     7082444737639390108
 - expected_values:
-    IS_EOT_V2: 28
+    IS_EOT: 28
   response: |-
     708102262107B000004
     70821030100007F4383
@@ -25,7 +25,7 @@ test_cases:
     7082380D88005000085
     7082444737639390000
 - expected_values:
-    IS_EOT_V2: 34
+    IS_EOT: 34
   response: |-
     708102262107B000004
     70821030100007F5882
@@ -33,7 +33,7 @@ test_cases:
     7082380008000000084
     708244A7D7D39390000
 - expected_values:
-    IS_EOT_V2: 36
+    IS_EOT: 36
   response: |-
     708102262107B000004
     70821030100007F5882
@@ -41,7 +41,7 @@ test_cases:
     7082380008000000082
     708244C757539390000
 - expected_values:
-    IS_EOT_V2: 36
+    IS_EOT: 36
   response: |-
     708102262107B000004
     70821030100007F5882
@@ -49,7 +49,7 @@ test_cases:
     7082380008000000082
     708244C757539390000
 - expected_values:
-    IS_EOT_V2: 36
+    IS_EOT: 36
   response: |-
     708102262107B000004
     70821030100007F5882
@@ -57,7 +57,7 @@ test_cases:
     70823809C8000000080
     708244C747439390000
 - expected_values:
-    IS_EOT_V2: 28
+    IS_EOT: 28
   response: |-
     708102262107B000004
     70821030100007F5883
@@ -65,7 +65,7 @@ test_cases:
     7082380CB8000000085
     7082444737639390000
 - expected_values:
-    IS_EOT_V2: 28
+    IS_EOT: 28
   response: |-
     708102262107B000004
     70821030100007F6283
