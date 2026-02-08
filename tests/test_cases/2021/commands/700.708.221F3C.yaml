@@ -1,0 +1,11 @@
+command_id: 700.708.221F3C
+test_cases:
+- expected_values:
+    IS_CAT_T_BANK_1_SENSOR_1: 416.9
+  response: 70805621F3C11D9
+- expected_values:
+    IS_CAT_T_BANK_1_SENSOR_1: 417.2
+  response: 70805621F3C11DC
+- expected_values:
+    IS_CAT_T_BANK_1_SENSOR_1: 417.5
+  response: 70805621F3C11DF

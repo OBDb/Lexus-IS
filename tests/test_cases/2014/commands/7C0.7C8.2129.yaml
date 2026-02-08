@@ -1,0 +1,8 @@
+command_id: 7C0.7C8.2129
+test_cases:
+- expected_values:
+    IS_FLI_VOL: 5.81242
+  response: 7C80361292C
+- expected_values:
+    IS_FLI_VOL: 15.71995
+  response: 7C803612977
