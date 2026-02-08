@@ -1,0 +1,17 @@
+command_id: 7D2.709.220103|fc=1
+test_cases:
+- expected_values:
+    IS_ODO_V2: 103744
+  response: '7090762010301019540'
+- expected_values:
+    IS_ODO_V2: 103935
+  response: 70907620103010195FF
+- expected_values:
+    IS_ODO_V2: 104192
+  response: '7090762010301019700'
+- expected_values:
+    IS_ODO_V2: 105500
+  response: 7090762010301019C1C
+- expected_values:
+    IS_ODO_V2: 25250
+  response: 70907620103020062A2

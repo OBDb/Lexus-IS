@@ -1,0 +1,42 @@
+command_id: 700.708.2210A5
+test_cases:
+- expected_values:
+    IS_MISFIRE_COUNT: 0
+  response: |-
+    70810086210A5000000
+    7082100620000000000
+- expected_values:
+    IS_MISFIRE_COUNT: 0
+  response: |-
+    70810086210A5000000
+    7082100800000000000
+- expected_values:
+    IS_MISFIRE_COUNT: 0
+  response: |-
+    70810086210A5000000
+    70821009F0000000000
+- expected_values:
+    IS_MISFIRE_COUNT: 0
+  response: |-
+    70810086210A5000000
+    7082100FF0000000000
+- expected_values:
+    IS_MISFIRE_COUNT: 0
+  response: |-
+    70810086210A500005B
+    7082100000000000000
+- expected_values:
+    IS_MISFIRE_COUNT: 0
+  response: |-
+    70810086210A50000FF
+    7082100860000000000
+- expected_values:
+    IS_MISFIRE_COUNT: 0
+  response: |-
+    70810086210A5000200
+    7082100D90000000000
+- expected_values:
+    IS_MISFIRE_COUNT: 7
+  response: |-
+    70810086210A5070036
+    7082100CB0000000000

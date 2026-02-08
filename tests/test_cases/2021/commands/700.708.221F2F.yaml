@@ -1,0 +1,11 @@
+command_id: 700.708.221F2F
+test_cases:
+- expected_values:
+    IS_FLI: 83.52941
+  response: 70804621F2FD5
+- expected_values:
+    IS_FLI: 83.92157
+  response: 70804621F2FD6
+- expected_values:
+    IS_FLI: 84.31373
+  response: 70804621F2FD7

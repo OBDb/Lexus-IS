@@ -1,0 +1,12 @@
+command_id: 7E0.7E8.2185
+test_cases:
+- expected_values:
+    IS_GEAR: 1
+    IS_TQC_LOCKUP: 0
+  response: |-
+    2185
+    7E8056185010010
+- expected_values:
+    IS_GEAR: 1
+    IS_TQC_LOCKUP: 0
+  response: '7E8056185010010'

@@ -1,0 +1,10 @@
+command_id: 7E0.7E8.2121
+test_cases:
+- expected_values:
+    IS_CC_S: 0
+  response: |-
+    2121
+    7E80761210000800000
+- expected_values:
+    IS_CC_S: 0
+  response: '7E80761210000800000'
