@@ -19,6 +19,8 @@ supported_commands_by_ecu:
   "701":
   - 701.709.220103:IS_ODO
   - 701.709.221627|f=2021-:IS_ATF_T_PAN_GEN3
+  "750":
+  - 750.758.2130|e=2A,ta=2A,fc=1:IS_TP_FL,IS_TP_FR,IS_TP_RL,IS_TP_RR,IS_TP_SPARE
   "7B0":
   - 7B0.7B8.221006:IS_MASTER_CYL_TEMP
   "7C0":
@@ -26,6 +28,7 @@ supported_commands_by_ecu:
   "7D0":
   - 7D0.7D8.2162:IS_PARKING_BRAKE
   "7DF":
+  - 7DF.0101
   - 7DF.0103
   - 7DF.0104
   - 7DF.0105
@@ -42,9 +45,11 @@ supported_commands_by_ecu:
   - 7DF.0113
   - 7DF.0115
   - 7DF.011C
+  - 7DF.0121
   - 7DF.0124
   - 7DF.012E
   - 7DF.012F
+  - 7DF.0130
   - 7DF.0131
   - 7DF.0133
   - 7DF.013C
@@ -60,6 +65,8 @@ supported_commands_by_ecu:
   - 7DF.0149
   - 7DF.014A
   - 7DF.014C
+  - 7DF.014D
+  - 7DF.014E
   - 7DF.0151
   - 7DF.0153
   - 7DF.0155
@@ -214,7 +221,6 @@ unsupported_commands_by_ecu:
   - '750.221005'
   - 750.222021|e=2A,ta=2A,fc=1:IS_TID_1,IS_TID_2,IS_TID_3,IS_TID_4
   - 750.758.2116|e=2A,fc=1:IS_TT_FL_V2,IS_TT_FR_V2,IS_TT_RL_V2,IS_TT_RR_V2,IS_TT_SPARE
-  - 750.758.2130|e=2A,ta=2A,fc=1:IS_TP_FL,IS_TP_FR,IS_TP_RL,IS_TP_RR,IS_TP_SPARE
   - 750.758.221004
   - 750.758.221005
   "7B0":

@@ -10,8 +10,8 @@ test_cases:
     IS_ODO: 104192
   response: '7090762010301019700'
 - expected_values:
-    IS_ODO: 105500
-  response: 7090762010301019C1C
+    IS_ODO: 114351
+  response: 709076201030101BEAF
 - expected_values:
     IS_ODO: 25250
   response: 70907620103020062A2
