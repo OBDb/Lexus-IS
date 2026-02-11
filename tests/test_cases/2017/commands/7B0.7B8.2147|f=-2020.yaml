@@ -1,0 +1,38 @@
+command_id: 7B0.7B8.2147|f=-2020
+test_cases:
+- expected_values:
+    IS_LAT_G: 0
+    IS_LNG_G: 0.02
+    IS_STEER_ANGLE: 0.2
+    IS_YAW_RATE: 0
+  response: 7B80761470001808002
+- expected_values:
+    IS_LAT_G: -0.16
+    IS_LNG_G: -0.22
+    IS_STEER_ANGLE: -57
+    IS_YAW_RATE: -9
+  response: 7B8076147F8F5777DC6
+- expected_values:
+    IS_LAT_G: -0.06
+    IS_LNG_G: -0.02
+    IS_STEER_ANGLE: -333
+    IS_YAW_RATE: 0
+  response: 7B8076147FDFF8072FE
+- expected_values:
+    IS_LAT_G: -0.04
+    IS_LNG_G: 0.08
+    IS_STEER_ANGLE: 13.1
+    IS_YAW_RATE: 2
+  response: 7B8076147FE04828083
+- expected_values:
+    IS_LAT_G: -0.02
+    IS_LNG_G: 0.04
+    IS_STEER_ANGLE: -1.2
+    IS_YAW_RATE: 0
+  response: 7B8076147FF02807FF4
+- expected_values:
+    IS_LAT_G: -0.02
+    IS_LNG_G: -0.06
+    IS_STEER_ANGLE: 62.9
+    IS_YAW_RATE: 0
+  response: 7B8076147FFFD808275
