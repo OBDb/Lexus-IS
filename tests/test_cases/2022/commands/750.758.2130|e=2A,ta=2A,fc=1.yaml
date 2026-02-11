@@ -1,0 +1,47 @@
+command_id: 750.758.2130|e=2A,ta=2A,fc=1
+test_cases:
+- expected_values:
+    IS_TP_FL: 2.48276
+    IS_TP_FR: 2.48276
+    IS_TP_RL: 2.5
+    IS_TP_RR: 2.39655
+    IS_TP_SPARE: 0
+  response: |-
+    7582A10076130ADADAE
+    7582A21A80000000000
+- expected_values:
+    IS_TP_FL: 2.56897
+    IS_TP_FR: 2.56897
+    IS_TP_RL: 2.60345
+    IS_TP_RR: 2.51724
+    IS_TP_SPARE: 0
+  response: |-
+    7582A10076130B2B2B4
+    7582A21AF0000000000
+- expected_values:
+    IS_TP_FL: 2.58621
+    IS_TP_FR: 2.56897
+    IS_TP_RL: 2.62069
+    IS_TP_RR: 2.53448
+    IS_TP_SPARE: 0
+  response: |-
+    7582A10076130B3B2B5
+    7582A21B00000000000
+- expected_values:
+    IS_TP_FL: 2.65517
+    IS_TP_FR: 2.65517
+    IS_TP_RL: 2.72414
+    IS_TP_RR: 2.63793
+    IS_TP_SPARE: 0
+  response: |-
+    7582A10076130B7B7BB
+    7582A21B60000000000
+- expected_values:
+    IS_TP_FL: 2.67241
+    IS_TP_FR: 2.63793
+    IS_TP_RL: 2.68966
+    IS_TP_RR: 2.62069
+    IS_TP_SPARE: 0
+  response: |-
+    7582A10076130B8B6B9
+    7582A21B50000000000
