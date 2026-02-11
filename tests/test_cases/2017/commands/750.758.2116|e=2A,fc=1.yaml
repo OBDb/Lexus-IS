@@ -1,0 +1,83 @@
+command_id: 750.758.2116|e=2A,fc=1
+test_cases:
+- expected_values:
+    IS_TT_FL_V2: -2
+    IS_TT_FR_V2: 2
+    IS_TT_RL_V2: 0
+    IS_TT_RR_V2: 3
+    IS_TT_SPARE: -20
+  response: |-
+    7582A10076116262A28
+    7582A212B0000000000
+- expected_values:
+    IS_TT_FL_V2: -2
+    IS_TT_FR_V2: 2
+    IS_TT_RL_V2: 0
+    IS_TT_RR_V2: 4
+    IS_TT_SPARE: -20
+  response: |-
+    7582A10076116262A28
+    7582A212C0000000000
+- expected_values:
+    IS_TT_FL_V2: -1
+    IS_TT_FR_V2: 1
+    IS_TT_RL_V2: 0
+    IS_TT_RR_V2: 3
+    IS_TT_SPARE: -20
+  response: |-
+    7582A10076116272928
+    7582A212B0000000000
+- expected_values:
+    IS_TT_FL_V2: -1
+    IS_TT_FR_V2: 2
+    IS_TT_RL_V2: 0
+    IS_TT_RR_V2: 4
+    IS_TT_SPARE: -20
+  response: |-
+    7582A10076116272A28
+    7582A212C0000000000
+- expected_values:
+    IS_TT_FL_V2: -1
+    IS_TT_FR_V2: 2
+    IS_TT_RL_V2: 1
+    IS_TT_RR_V2: 5
+    IS_TT_SPARE: -20
+  response: |-
+    7582A10076116272A29
+    7582A212D0000000000
+- expected_values:
+    IS_TT_FL_V2: 0
+    IS_TT_FR_V2: 4
+    IS_TT_RL_V2: 1
+    IS_TT_RR_V2: 6
+    IS_TT_SPARE: -20
+  response: |-
+    7582A10076116282C29
+    7582A212E0000000000
+- expected_values:
+    IS_TT_FL_V2: 0
+    IS_TT_FR_V2: 4
+    IS_TT_RL_V2: 2
+    IS_TT_RR_V2: 6
+    IS_TT_SPARE: -20
+  response: |-
+    7582A10076116282C2A
+    7582A212E0000000000
+- expected_values:
+    IS_TT_FL_V2: 0
+    IS_TT_FR_V2: 5
+    IS_TT_RL_V2: 2
+    IS_TT_RR_V2: 7
+    IS_TT_SPARE: -20
+  response: |-
+    7582A10076116282D2A
+    7582A212F0000000000
+- expected_values:
+    IS_TT_FL_V2: 2
+    IS_TT_FR_V2: 6
+    IS_TT_RL_V2: 3
+    IS_TT_RR_V2: 8
+    IS_TT_SPARE: -20
+  response: |-
+    7582A100761162A2E2B
+    7582A21300000000000
