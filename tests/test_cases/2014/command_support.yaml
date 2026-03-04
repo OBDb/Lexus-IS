@@ -63,6 +63,7 @@ supported_commands_by_ecu:
   - 7E0.0134:LAMBDA11_CURRENT,O2S11_CURRENT
   - 7E0.0142:VPWR
   - 7E0.0144:EQ_RAT
+  - 7E0.0145:TP_R
   - 7E0.0147:TP_B
   - 7E0.014D:MIL_TIME
   - 7E0.014E:CLR_TIME
@@ -73,6 +74,8 @@ supported_commands_by_ecu:
   - 7E0.7E8.2185|f=-2020:IS_GEAR,IS_TQC_LOCKUP
   "7E2":
   - 7E2.7EA.0146
+  - 7E2.7EA.0149
+  - 7E2.7EA.014A
   - 7E2.7EA.015B
 unsupported_commands_by_ecu:
   "6F1":
