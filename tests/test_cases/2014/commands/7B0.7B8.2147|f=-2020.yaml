@@ -27,19 +27,19 @@ test_cases:
 - expected_values:
     IS_LAT_G: 0
     IS_LNG_G: 0
+    IS_STEER_ANGLE: -4.4
+    IS_YAW_RATE: 0
+  response: |-
+    7B8100961470000807F
+    7B821D400F000000000
+- expected_values:
+    IS_LAT_G: 0
+    IS_LNG_G: 0
     IS_STEER_ANGLE: -1.6
     IS_YAW_RATE: 0
   response: |-
     7B8100961470000807F
     7B821F000F200000000
-- expected_values:
-    IS_LAT_G: 0
-    IS_LNG_G: 0
-    IS_STEER_ANGLE: -1.5
-    IS_YAW_RATE: 0
-  response: |-
-    7B8100961470000807F
-    7B821F1000000000000
 - expected_values:
     IS_LAT_G: 0
     IS_LNG_G: 0
@@ -59,11 +59,11 @@ test_cases:
 - expected_values:
     IS_LAT_G: 0
     IS_LNG_G: -0.02
-    IS_STEER_ANGLE: -3.7
+    IS_STEER_ANGLE: -17.9
     IS_YAW_RATE: 0
   response: |-
     7B81009614700FF807F
-    7B821DB00E800000000
+    7B8214D00F500000000
 - expected_values:
     IS_LAT_G: 0.48
     IS_LNG_G: -0.14
