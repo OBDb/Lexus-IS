@@ -105,7 +105,7 @@
         }}
     }
   ]},
-{ "hdr": "750", "rax": "758", "eax": "2A", "fcm1": true, "cmd": {"21": "16"}, "freq": 1, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "750", "rax": "758", "eax": "2A", "fcm1": true, "cmd": {"21": "16"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2018, 2019, 2020, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "IS_TT_FL_V2", "path": "Tires", "fmt": {           "len": 8, "max": 150, "min": -20, "add": -40, "unit": "celsius" }, "name": "Front left tire temperature",  "suggestedMetric": "frontLeftTireTemperature"},
     {"id": "IS_TT_FR_V2", "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 150, "min": -20, "add": -40, "unit": "celsius" }, "name": "Front right tire temperature", "suggestedMetric": "frontRightTireTemperature"},
