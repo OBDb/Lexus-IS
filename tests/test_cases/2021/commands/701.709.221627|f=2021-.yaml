@@ -1,0 +1,8 @@
+command_id: 701.709.221627|f=2021-
+test_cases:
+- expected_values:
+    IS_ATF_T_PAN_GEN3: 81.875
+  response: '7090562162779E0'
+- expected_values:
+    IS_ATF_T_PAN_GEN3: 82.5
+  response: 709056216277A80

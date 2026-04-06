@@ -1,0 +1,29 @@
+command_id: 7C0.7C8.2129
+test_cases:
+- expected_values:
+    IS_FLI_VOL: 15.85205
+  response: 7C803612978
+- expected_values:
+    IS_FLI_VOL: 16.11625
+  response: 7C80361297A
+- expected_values:
+    IS_FLI_VOL: 16.24835
+  response: 7C80361297B
+- expected_values:
+    IS_FLI_VOL: 16.38045
+  response: 7C80361297C
+- expected_values:
+    IS_FLI_VOL: 16.64465
+  response: 7C80361297E
+- expected_values:
+    IS_FLI_VOL: 16.77675
+  response: 7C80361297F
+- expected_values:
+    IS_FLI_VOL: 16.90885
+  response: 7C803612980
+- expected_values:
+    IS_FLI_VOL: 17.04095
+  response: 7C803612981
+- expected_values:
+    IS_FLI_VOL: 17.17305
+  response: 7C803612982

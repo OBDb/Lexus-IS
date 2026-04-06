@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.2185|f=-2020
+test_cases:
+- expected_values:
+    IS_GEAR: 1
+    IS_TQC_LOCKUP: 0
+  response: '7E8056185010010'
+- expected_values:
+    IS_GEAR: 3
+    IS_TQC_LOCKUP: 0
+  response: '7E8056185030010'
+- expected_values:
+    IS_GEAR: 4
+    IS_TQC_LOCKUP: 0
+  response: '7E8056185040010'
+- expected_values:
+    IS_GEAR: 6
+    IS_TQC_LOCKUP: 0
+  response: '7E8056185060010'
+- expected_values:
+    IS_GEAR: 6
+    IS_TQC_LOCKUP: 1
+  response: '7E8056185068010'
+- expected_values:
+    IS_GEAR: 6
+    IS_TQC_LOCKUP: 1
+  response: '7E8056185068018'
