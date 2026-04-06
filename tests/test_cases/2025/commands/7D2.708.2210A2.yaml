@@ -1,0 +1,7 @@
+command_id: 7D2.708.2210A2
+test_cases:
+- expected_values:
+    IS_RM_TQ_REQ: -899
+  response: |-
+    70810086210A27C7D81
+    7082181810000000000

@@ -1,0 +1,14 @@
+command_id: 700.708.221062
+test_cases:
+- expected_values:
+    IS_EXHAUST_VVT_OCV_CONTROL_DUTY: 9.90005
+  response: '708056210620656'
+- expected_values:
+    IS_EXHAUST_VVT_OCV_CONTROL_DUTY: 34.36942
+  response: 7080562106215FF
+- expected_values:
+    IS_EXHAUST_VVT_OCV_CONTROL_DUTY: 42.18814
+  response: 708056210621B00
+- expected_values:
+    IS_EXHAUST_VVT_OCV_CONTROL_DUTY: 63.66064
+  response: 7080562106228BE
