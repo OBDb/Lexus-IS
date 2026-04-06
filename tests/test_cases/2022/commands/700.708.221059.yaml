@@ -1,0 +1,32 @@
+command_id: 700.708.221059
+test_cases:
+- expected_values:
+    IS_ACCEL_PEDAL: 0
+  response: |-
+    708100A621059285128
+    7082151000000000000
+- expected_values:
+    IS_ACCEL_PEDAL: 0
+  response: |-
+    708100A62105929522C
+    7082152000000000000
+- expected_values:
+    IS_ACCEL_PEDAL: 0
+  response: |-
+    708100A6210592D5529
+    708215200CF00000000
+- expected_values:
+    IS_ACCEL_PEDAL: 9
+  response: |-
+    708100A621059477029
+    70821520FF300000000
+- expected_values:
+    IS_ACCEL_PEDAL: 16.04225
+  response: |-
+    708100A621059517A29
+    708215314D400000000
+- expected_values:
+    IS_ACCEL_PEDAL: 73.78873
+  response: |-
+    708100A621059A3CC29
+    7082152400000000000

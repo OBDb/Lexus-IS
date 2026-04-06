@@ -1,0 +1,10 @@
+command_id: 750.222021|e=2A,ta=2A,fc=1
+test_cases:
+- expected_values:
+    IS_TID_1: RR
+    IS_TID_2: FR
+    IS_TID_3: RL
+    IS_TID_4: FL
+  response: |-
+    7582A10086220210402
+    7582A21030100000000
