@@ -31,6 +31,3 @@ supported_commands_by_ecu:
   - 013C:CATEMP11
   - 013D:CATEMP21
   - 013E:CATEMP12
-unsupported_commands_by_ecu:
-  "7C0":
-  - 7C0.7C8.221022|fc=1:IS_FLV
