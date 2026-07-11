@@ -1,0 +1,11 @@
+command_id: 7B0.7B8.221006
+test_cases:
+- expected_values:
+    IS_MASTER_CYL_TEMP: 25
+  response: 7B8056210066900
+- expected_values:
+    IS_MASTER_CYL_TEMP: 26
+  response: 7B8056210066A00
+- expected_values:
+    IS_MASTER_CYL_TEMP: 27
+  response: 7B8056210066B00
