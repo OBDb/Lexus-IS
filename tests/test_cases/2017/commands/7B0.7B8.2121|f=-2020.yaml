@@ -1,0 +1,29 @@
+command_id: 7B0.7B8.2121|f=-2020
+test_cases:
+- expected_values:
+    IS_VSS: 0
+  response: 7B803612100
+- expected_values:
+    IS_VSS: 21.76
+  response: 7B803612111
+- expected_values:
+    IS_VSS: 28.16
+  response: 7B803612116
+- expected_values:
+    IS_VSS: 52.48
+  response: 7B803612129
+- expected_values:
+    IS_VSS: 76.8
+  response: 7B80361213C
+- expected_values:
+    IS_VSS: 84.48
+  response: 7B803612142
+- expected_values:
+    IS_VSS: 97.28
+  response: 7B80361214C
+- expected_values:
+    IS_VSS: 102.4
+  response: 7B803612150
+- expected_values:
+    IS_VSS: 103.68
+  response: 7B803612151
