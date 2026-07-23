@@ -3,6 +3,14 @@ test_cases:
 - expected_values:
     IS_LAT_G: 0.02
     IS_LNG_G: -0.04
+    IS_STEER_ANGLE: -18
+    IS_YAW_RATE: 0
+  response: |-
+    7B81009614701FE807F
+    7B8214C000200000000
+- expected_values:
+    IS_LAT_G: 0.02
+    IS_LNG_G: -0.04
     IS_STEER_ANGLE: -10.5
     IS_YAW_RATE: 0
   response: |-
