@@ -1,0 +1,14 @@
+command_id: 7D0.7D8.2162
+test_cases:
+- expected_values:
+    IS_PARKING_BRAKE: 'Off'
+  response: 7D80461620183
+- expected_values:
+    IS_PARKING_BRAKE: 'Off'
+  response: 7D80461620186
+- expected_values:
+    IS_PARKING_BRAKE: 'Off'
+  response: 7D80461620187
+- expected_values:
+    IS_PARKING_BRAKE: 'Off'
+  response: 7D80461620188
