@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2182|f=-2020
+test_cases:
+- expected_values:
+    IS_ATF_T_PAN: 94.375
+  response: '7E80461828660'
+- expected_values:
+    IS_ATF_T_PAN: 95
+  response: '7E80461828700'
+- expected_values:
+    IS_ATF_T_PAN: 95.625
+  response: 7E804618287A0

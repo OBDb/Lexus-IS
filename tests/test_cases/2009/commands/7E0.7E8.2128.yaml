@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.2128
+test_cases:
+- expected_values:
+    IS_ODO_V3: 8326758
+  response: 7E80661287F0E66DD
+- expected_values:
+    IS_ODO_V3: 8374632
+  response: 7E80661287FC96809
+- expected_values:
+    IS_ODO_V3: 8391272
+  response: 7E8066128800A684F
+- expected_values:
+    IS_ODO_V3: 8429672
+  response: 7E806612880A068EF
+- expected_values:
+    IS_ODO_V3: 8453225
+  response: 7E806612880FC6949
+- expected_values:
+    IS_ODO_V3: 8484459
+  response: 7E806612881766B29
+- expected_values:
+    IS_ODO_V3: 8525419
+  response: 7E806612882166BD3
