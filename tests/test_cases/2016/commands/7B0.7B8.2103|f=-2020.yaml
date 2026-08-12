@@ -1,0 +1,32 @@
+command_id: 7B0.7B8.2103|f=-2020
+test_cases:
+- expected_values:
+    IS_TIRE_FL_SPD: 128
+    IS_TIRE_FR_SPD: 128
+    IS_TIRE_RL_SPD: 128
+    IS_TIRE_RR_SPD: 126.72
+  response: 7B806610364646364
+- expected_values:
+    IS_TIRE_FL_SPD: 130.56
+    IS_TIRE_FR_SPD: 130.56
+    IS_TIRE_RL_SPD: 130.56
+    IS_TIRE_RR_SPD: 130.56
+  response: 7B806610366666666
+- expected_values:
+    IS_TIRE_FL_SPD: 131.84
+    IS_TIRE_FR_SPD: 131.84
+    IS_TIRE_RL_SPD: 131.84
+    IS_TIRE_RR_SPD: 131.84
+  response: 7B806610367676767
+- expected_values:
+    IS_TIRE_FL_SPD: 133.12
+    IS_TIRE_FR_SPD: 131.84
+    IS_TIRE_RL_SPD: 131.84
+    IS_TIRE_RR_SPD: 131.84
+  response: 7B806610367686767
+- expected_values:
+    IS_TIRE_FL_SPD: 133.12
+    IS_TIRE_FR_SPD: 133.12
+    IS_TIRE_RL_SPD: 133.12
+    IS_TIRE_RR_SPD: 133.12
+  response: 7B806610368686868
