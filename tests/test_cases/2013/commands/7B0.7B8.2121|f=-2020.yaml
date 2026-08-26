@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     IS_VSS: 0
   response: 7B803612100
+- expected_values:
+    IS_VSS: 119.04
+  response: 7B80361215D
