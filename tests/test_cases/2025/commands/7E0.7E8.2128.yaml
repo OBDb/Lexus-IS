@@ -7,5 +7,5 @@ test_cases:
     IS_ODO_V3: 13880
   response: '7E8056128003638'
 - expected_values:
-    IS_ODO_V3: 13977
-  response: '7E8056128003699'
+    IS_ODO_V3: 14044
+  response: 7E80561280036DC
