@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     IS_ODO_V3: 14080
   response: '7E8056128003700'
+- expected_values:
+    IS_ODO_V3: 14336
+  response: '7E8056128003800'
