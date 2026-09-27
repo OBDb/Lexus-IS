@@ -106,6 +106,7 @@ supported_commands_by_ecu:
   - 7E0.0121:MIL_DIST
   - 7E0.0123:FRP
   - 7E0.0124:LAMBDA11_VOLT,O2S11_VOLT
+  - 7E0.012E:EVAP_PCT
   - 7E0.012F:FLI
   - 7E0.0130:WARM_UPS
   - 7E0.0131:CLR_DIST
@@ -200,6 +201,7 @@ unsupported_commands_by_ecu:
   - 7B0.7B8.2106
   - 7B0.7B8.211D
   - 7B0.7B8.211F
+  - 7B0.7B8.2121
   - 7B0.7B8.213C
   - 7B0.7B8.213D
   - 7B0.7B8.2142
@@ -268,6 +270,8 @@ unsupported_commands_by_ecu:
   - 7E0.7E8.2124
   - 7E0.7E8.2125
   - 7E0.7E8.2145
+  - 7E0.7E8.2182
+  - 7E0.7E8.2185
   - 7E0.7E8.21DA
   "7E1":
   - 7E1.7E9.0101
