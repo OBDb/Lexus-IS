@@ -5,7 +5,7 @@
   "commands": [
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "0103"}, "freq": 30,
   "signals": [
-    {"id": "IS_ODO_VAR_1", "path": "Trips", "fmt": { "len": 32, "max": 4294967295, "unit": "kilometers" }, "name": "Odometer, variant 1"}
+    {"id": "IS_ENG_ODO", "path": "Trips", "fmt": { "len": 32, "max": 4294967295, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
 { "hdr": "700", "rax": "708", "cmd": {"22": "1002"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
@@ -813,7 +813,7 @@
     {"id": "IS_ENGINE_SPEED",             "path": "Movement", "fmt": {"bix": 80,  "len": 16, "max": 16383,                                                    "unit": "rpm"               }, "name": "Engine speed",                 "suggestedMetric": "engineSpeed"},
     {"id": "IS_VEHICLE_SPEED",            "path": "Movement", "fmt": {"bix": 96,  "len": 8,  "max": 255,                                                      "unit": "kilometersPerHour" }, "name": "Vehicle speed",                "suggestedMetric": "speed"},
     {"id": "IS_ENGINE_RUN_TIME",          "path": "Engine",   "fmt": {"bix": 104, "len": 16, "max": 65535,                                                    "unit": "seconds"           }, "name": "Engine run time"},
-    {"id": "IS_THROTTLE_SENSOR_POSITION", "path": "Engine",   "fmt": {"bix": 120, "len": 8,  "max": 100,                "mul": 100, "div": 255,               "unit": "percent"           }, "name": "Throttle sensor position"},
+    {"id": "IS_THROTTLE_SENSOR_POSITION", "path": "Engine",   "fmt": {"bix": 120, "len": 8,  "max": 100,                "mul": 100, "div": 255,               "unit": "percent"           }, "name": "Throttle sensor position",     "suggestedMetric": "throttlePosition"},
     {"id": "IS_THROTTLE_SENSOR_VOLT",     "path": "Engine",   "fmt": {"bix": 128, "len": 8,  "max": 100,                "mul": 100, "div": 255,               "unit": "percent"           }, "name": "Throttle sensor volt %, 1"},
     {"id": "IS_THROTTL_SENSOR_2_VOLT",    "path": "Engine",   "fmt": {"bix": 136, "len": 8,  "max": 100,                "mul": 100, "div": 255,               "unit": "percent"           }, "name": "Throttle sensor volt %, 2"},
     {"id": "IS_ACCEL_SENS_NO_1_VOLT",     "path": "Engine",   "fmt": {"bix": 144, "len": 8,  "max": 100,                "mul": 100, "div": 255,               "unit": "percent"           }, "name": "Accelerator sensor volt %, 1"},
@@ -833,7 +833,7 @@
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "04"}, "freq": 1,
   "signals": [
     {"id": "IS_TARGET_AIR_FUEL_RATIO", "path": "Fuel",    "fmt": {           "len": 16, "max": 1.99,                "mul": 1.99, "div": 65535,              "unit": "scalar"    }, "name": "Target air-fuel ratio"},
-    {"id": "IS_AF_LAMBDA_B1S1",        "path": "Engine",  "fmt": {"bix": 16, "len": 16, "max": 1.99,                "mul": 1.99, "div": 65535,              "unit": "scalar"    }, "name": "Air/fuel lambda, bank 1 sensor 1"},
+    {"id": "IS_AF_LAMBDA_B1S1",        "path": "Engine",  "fmt": {"bix": 16, "len": 16, "max": 1.99,                "mul": 1.99, "div": 65535,              "unit": "scalar"    }, "name": "Air/fuel lambda, bank 1 sensor 1",         "suggestedMetric": "o2Lambda"},
     {"id": "IS_AFS_VOLTAGE_B1S1",      "path": "Battery", "fmt": {"bix": 32, "len": 16, "max": 7.99,                "mul": 7.99, "div": 65535,              "unit": "volts"     }, "name": "Air fuel sensor voltage, bank 1 sensor 1"},
     {"id": "IS_AFS_CURRENT_B1S1",      "path": "Engine",  "fmt": {"bix": 64, "len": 16, "max": 127.99, "min": -128,                            "add": -128, "unit": "milliamps" }, "name": "Air fuel sensor current, bank 1 sensor 1"},
     {"id": "IS_O2S_B1S2",              "path": "Engine",  "fmt": {"bix": 80, "len": 8,  "max": 1.275,               "mul": 5,    "div": 1000,               "unit": "volts"     }, "name": "O2S, bank 1 sensor 2"}
@@ -1011,7 +1011,7 @@
 { "hdr": "7E0", "rax": "7E8", "cmd": {"21": "51"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2017, 2018, 2019, 2020, 2021], "from": 2026 },
   "signals": [
     {"id": "IS_PREV_TRIP_DST", "path": "Trips",  "fmt": {"bix": 40, "len": 16, "max": 655.35,             "div": 100,             "unit": "kilometers" }, "name": "Previous trip distance"},
-    {"id": "IS_VVTOT",         "path": "Engine", "fmt": {"bix": 56, "len": 8,  "max": 215,    "min": -40,             "add": -40, "unit": "celsius"    }, "name": "Variable valve timing oil temperature"},
+    {"id": "IS_VVTOT",         "path": "Engine", "fmt": {"bix": 56, "len": 8,  "max": 215,    "min": -40,             "add": -40, "unit": "celsius"    }, "name": "Variable valve timing oil temperature", "suggestedMetric": "engineOilTemperature"},
     {"id": "IS_EOT_V2",        "path": "Engine", "fmt": {"bix": 72, "len": 8,  "max": 215,    "min": -40,             "add": -40, "unit": "celsius"    }, "name": "Engine oil temperature, variation 2",   "suggestedMetric": "engineOilTemperature"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "52"}, "freq": 0.25,
@@ -1030,7 +1030,7 @@
     {"id": "IS_RPM_CYL_2",      "path": "Movement", "fmt": {"bix": 16, "len": 16, "max": 51199, "mul": 25, "div": 32, "unit": "rpm" }, "name": "Engine speed of cylinder 2"},
     {"id": "IS_RPM_CYL_3",      "path": "Movement", "fmt": {"bix": 32, "len": 16, "max": 51199, "mul": 25, "div": 32, "unit": "rpm" }, "name": "Engine speed of cylinder 3"},
     {"id": "IS_RPM_CYL_4",      "path": "Movement", "fmt": {"bix": 48, "len": 16, "max": 51199, "mul": 25, "div": 32, "unit": "rpm" }, "name": "Engine speed of cylinder 4"},
-    {"id": "IS_AV_RPM_ALL_CYL", "path": "Movement", "fmt": {"bix": 64, "len": 16, "max": 51199, "mul": 25, "div": 32, "unit": "rpm" }, "name": "Average engine speed of all cylinders"}
+    {"id": "IS_AV_RPM_ALL_CYL", "path": "Movement", "fmt": {"bix": 64, "len": 16, "max": 51199, "mul": 25, "div": 32, "unit": "rpm" }, "name": "Average engine speed of all cylinders", "suggestedMetric": "engineSpeed"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "81"}, "freq": 1,
   "signals": [
