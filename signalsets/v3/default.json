@@ -68,7 +68,7 @@
   ]},
 { "hdr": "700", "rax": "708", "cmd": {"22": "106A"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
-    {"id": "IS_FP_DUTY_RATIO", "path": "Fuel", "fmt": { "len": 16, "max": 3996.0365853659, "mul": 0.0609756098, "unit": "kilopascal" }, "name": "Fuel pump duty ratio"}
+    {"id": "IS_FP_DUTY_RATIO", "path": "Fuel", "fmt": { "len": 16, "max": 3996, "mul": 0.0609756098, "unit": "kilopascal" }, "name": "Fuel pump duty ratio"}
   ]},
 { "hdr": "700", "rax": "708", "cmd": {"22": "106C"}, "freq": 30, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
@@ -498,11 +498,11 @@
   ]},
 { "hdr": "750", "rax": "758", "eax": "2A", "tst": "2A", "fcm1": true, "dbg": true, "cmd": {"22": "1005"}, "freq": 15,
   "signals": [
-    {"id": "IS_TP_1", "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 56.121212, "div": 4.125, "add": -5.6969697, "nullmin": 0, "unit": "psi" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"},
-    {"id": "IS_TP_2", "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 56.121212, "div": 4.125, "add": -5.6969697, "nullmin": 0, "unit": "psi" }, "name": "Rear right tire pressure",  "suggestedMetric": "rearRightTirePressure"},
-    {"id": "IS_TP_3", "path": "Tires", "fmt": {"bix": 40, "len": 8, "max": 56.121212, "div": 4.125, "add": -5.6969697, "nullmin": 0, "unit": "psi" }, "name": "Front left tire pressure",  "suggestedMetric": "frontLeftTirePressure"},
-    {"id": "IS_TP_4", "path": "Tires", "fmt": {"bix": 56, "len": 8, "max": 56.121212, "div": 4.125, "add": -5.6969697, "nullmin": 0, "unit": "psi" }, "name": "Rear left tire pressure",   "suggestedMetric": "rearLeftTirePressure"},
-    {"id": "IS_TP_5", "path": "Tires", "fmt": {"bix": 72, "len": 8, "max": 56.121212, "div": 4.125, "add": -5.6969697, "nullmin": 0, "unit": "psi" }, "name": "Spare tire pressure"}
+    {"id": "IS_TP_1", "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 56.12, "div": 4.125, "add": -5.6969697, "nullmin": 0, "unit": "psi" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"},
+    {"id": "IS_TP_2", "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 56.12, "div": 4.125, "add": -5.6969697, "nullmin": 0, "unit": "psi" }, "name": "Rear right tire pressure",  "suggestedMetric": "rearRightTirePressure"},
+    {"id": "IS_TP_3", "path": "Tires", "fmt": {"bix": 40, "len": 8, "max": 56.12, "div": 4.125, "add": -5.6969697, "nullmin": 0, "unit": "psi" }, "name": "Front left tire pressure",  "suggestedMetric": "frontLeftTirePressure"},
+    {"id": "IS_TP_4", "path": "Tires", "fmt": {"bix": 56, "len": 8, "max": 56.12, "div": 4.125, "add": -5.6969697, "nullmin": 0, "unit": "psi" }, "name": "Rear left tire pressure",   "suggestedMetric": "rearLeftTirePressure"},
+    {"id": "IS_TP_5", "path": "Tires", "fmt": {"bix": 72, "len": 8, "max": 56.12, "div": 4.125, "add": -5.6969697, "nullmin": 0, "unit": "psi" }, "name": "Spare tire pressure"}
   ]},
 { "hdr": "780", "rax": "788", "cmd": {"21": "04"}, "freq": 1, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
   "signals": [
@@ -768,7 +768,7 @@
   ]},
 { "hdr": "7C4", "rax": "7CC", "cmd": {"21": "53"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
-    {"id": "IS_REGULATOR_P", "path": "Engine", "fmt": { "len": 8, "max": 3.29437, "min": -0.45668, "mul": 3.75105, "div": 255, "add": -0.45668, "unit": "scalar" }, "name": "Regulator pressure sensor"}
+    {"id": "IS_REGULATOR_P", "path": "Engine", "fmt": { "len": 8, "max": 3.29, "min": -0.456, "mul": 3.75105, "div": 255, "add": -0.45668, "unit": "scalar" }, "name": "Regulator pressure sensor"}
   ]},
 { "hdr": "7D0", "rax": "7D8", "cmd": {"21": "62"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2015, 2018, 2019, 2020], "from": 2026 },
   "signals": [
