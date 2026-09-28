@@ -1,13 +1,13 @@
 command_id: 750.758.221005|e=2A,ta=2A,fc=1
 test_cases:
 - expected_values:
-    IS_TP_1: 33.09091
-    IS_TP_2: 33.57576
+    IS_TP_1: 32.84848
+    IS_TP_2: 33.33333
     IS_TP_3: 32.84848
-    IS_TP_4: 34.06061
+    IS_TP_4: 33.81818
   response: |-
-    7582A100D62100500A0
-    7582A2100A2009F00A4
+    7582A100D621005009F
+    7582A2100A1009F00A3
     7582A22000000000000
 - expected_values:
     IS_TP_1: 33.33333
