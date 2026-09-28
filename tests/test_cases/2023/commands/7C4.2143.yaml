@@ -1,0 +1,10 @@
+command_id: 7C4.2143
+test_cases:
+- expected_values:
+    IS_AIR_OUTLET_SERVO_ACT: 89
+    IS_AIR_OUTLET_SERVO_PULSE_D: 89
+  response: 7CC06614359590200
+- expected_values:
+    IS_AIR_OUTLET_SERVO_ACT: 89
+    IS_AIR_OUTLET_SERVO_PULSE_D: 89
+  response: 7CC06614359590300

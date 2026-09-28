@@ -1,0 +1,11 @@
+command_id: 7C4.214C
+test_cases:
+- expected_values:
+    IS_EVAP_TARGET_T: 1
+  response: 7CC04614C8064
+- expected_values:
+    IS_EVAP_TARGET_T: 2.6
+  response: 7CC04614C8104
+- expected_values:
+    IS_EVAP_TARGET_T: 5
+  response: 7CC04614C81F4
