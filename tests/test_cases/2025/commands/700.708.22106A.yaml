@@ -1,0 +1,8 @@
+command_id: 700.708.22106A
+test_cases:
+- expected_values:
+    IS_FP_DUTY_RATIO: 260.06098
+  response: 7080562106A10A9
+- expected_values:
+    IS_FP_DUTY_RATIO: 262.86585
+  response: 7080562106A10D7
