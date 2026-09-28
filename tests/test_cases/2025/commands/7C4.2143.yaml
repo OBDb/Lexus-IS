@@ -1,0 +1,6 @@
+command_id: 7C4.2143
+test_cases:
+- expected_values:
+    IS_AIR_OUTLET_SERVO_ACT: 12
+    IS_AIR_OUTLET_SERVO_PULSE_D: 12
+  response: 7CC0661430C0C0000

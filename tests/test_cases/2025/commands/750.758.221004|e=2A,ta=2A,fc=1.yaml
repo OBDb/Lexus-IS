@@ -1,0 +1,42 @@
+command_id: 750.758.221004|e=2A,ta=2A,fc=1
+test_cases:
+- expected_values:
+    IS_TT_1: 16
+    IS_TT_2: 16
+    IS_TT_3: 15
+    IS_TT_4: 16
+  response: |-
+    7582A10086210043838
+    7582A21373800000000
+- expected_values:
+    IS_TT_1: 21
+    IS_TT_2: 22
+    IS_TT_3: 21
+    IS_TT_4: 23
+  response: |-
+    7582A10086210043D3E
+    7582A213D3F00000000
+- expected_values:
+    IS_TT_1: 21
+    IS_TT_2: 22
+    IS_TT_3: 22
+    IS_TT_4: 22
+  response: |-
+    7582A10086210043D3E
+    7582A213E3E00000000
+- expected_values:
+    IS_TT_1: 21
+    IS_TT_2: 23
+    IS_TT_3: 21
+    IS_TT_4: 23
+  response: |-
+    7582A10086210043D3F
+    7582A213D3F00000000
+- expected_values:
+    IS_TT_1: 22
+    IS_TT_2: 23
+    IS_TT_3: 22
+    IS_TT_4: 23
+  response: |-
+    7582A10086210043E3F
+    7582A213E3F00000000
