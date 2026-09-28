@@ -1,0 +1,37 @@
+command_id: 7E0.7E8.2142
+test_cases:
+- expected_values:
+    IS_ALT_VOL_NON_ACTIVE: 10.3125
+    IS_BAT_CURRENT: -82.37774
+    IS_BAT_T: 0
+  response: |-
+    7E8100861422BA50000
+    7E82121000000000000
+- expected_values:
+    IS_ALT_VOL_NON_ACTIVE: 5.15625
+    IS_BAT_CURRENT: -82.06493
+    IS_BAT_T: 0
+  response: |-
+    7E8100861422BF70000
+    7E82110800000000000
+- expected_values:
+    IS_ALT_VOL_NON_ACTIVE: 9.6875
+    IS_BAT_CURRENT: -82.06493
+    IS_BAT_T: 0
+  response: |-
+    7E8100861422BF70000
+    7E8211F000000000000
+- expected_values:
+    IS_ALT_VOL_NON_ACTIVE: 5.78125
+    IS_BAT_CURRENT: -81.981
+    IS_BAT_T: 0
+  response: |-
+    7E8100861422C0D0000
+    7E82112800000000000
+- expected_values:
+    IS_ALT_VOL_NON_ACTIVE: 4.53125
+    IS_BAT_CURRENT: -81.81315
+    IS_BAT_T: 0
+  response: |-
+    7E8100861422C390000
+    7E8210E800000000000
