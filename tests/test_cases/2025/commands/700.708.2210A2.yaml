@@ -1,4 +1,4 @@
-command_id: 7D2.708.2210A2
+command_id: 700.708.2210A2
 test_cases:
 - expected_values:
     IS_AF_LEARN_HIGH_PORT_B1: 0.58824

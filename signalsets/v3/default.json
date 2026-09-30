@@ -52,7 +52,7 @@
   ]},
 { "hdr": "700", "rax": "708", "cmd": {"22": "1059"}, "freq": 0.25, "dbgfilter": { "to": 2020, "years": [2023, 2024], "from": 2026 },
   "signals": [
-    {"id": "IS_ACCEL_PEDAL", "path": "Control", "fmt": { "len": 8, "max": 100, "div": 1.42, "add": -41, "unit": "percent" }, "name": "Accelerator pedal"}
+    {"id": "IS_ACCEL_PEDAL", "path": "Control", "fmt": { "len": 8, "max": 100, "div": 1.42, "add": -28.873, "unit": "percent" }, "name": "Accelerator pedal"}
   ]},
 { "hdr": "700", "rax": "708", "cmd": {"22": "105C"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2023, 2024], "from": 2026 },
   "signals": [
@@ -123,7 +123,7 @@
   ]},
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "108A"}, "freq": 1,
   "signals": [
-    {"id": "IS_VVT_IE_DUTY_RATIO_BANK_1", "path": "Engine", "fmt": { "len": 16, "max": 199, "mul": 399.9, "div": 65535, "add": -200, "unit": "percent" }, "name": "Variable valve timing duty ratio, bank 1"}
+    {"id": "IS_VVT_IE_DUTY_RATIO_BANK_1", "path": "Engine", "fmt": { "len": 16, "max": 199, "min": -200, "mul": 399.9, "div": 65535, "add": -200, "unit": "percent" }, "name": "Variable valve timing duty ratio, bank 1"}
   ]},
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "108D"}, "freq": 3600,
   "signals": [
@@ -136,6 +136,14 @@
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "109A"}, "freq": 5,
   "signals": [
     {"id": "IS_FFT", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Fuel filter temperature"}
+  ]},
+{ "hdr": "700", "rax": "708", "cmd": {"22": "10A2"}, "freq": 3600, "dbgfilter": { "to": 2024, "from": 2026 },
+  "signals": [
+    {"id": "IS_AF_LEARN_IDLE_PORT_B1", "path": "Engine", "fmt": {           "len": 8, "max": 50, "min": -50, "mul": 100, "div": 255, "add": -50, "unit": "percent" }, "name": "A/F ratio learn value idle, bank 1"},
+    {"id": "IS_AF_LEARN_LOW_PORT_B1",  "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 50, "min": -50, "mul": 100, "div": 255, "add": -50, "unit": "percent" }, "name": "A/F ratio learn value low, bank 1"},
+    {"id": "IS_AF_LEARN_MID1_PORT_B1", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 50, "min": -50, "mul": 100, "div": 255, "add": -50, "unit": "percent" }, "name": "A/F ratio learn value mid.1, bank 1"},
+    {"id": "IS_AF_LEARN_MID2_PORT_B1", "path": "Engine", "fmt": {"bix": 24, "len": 8, "max": 50, "min": -50, "mul": 100, "div": 255, "add": -50, "unit": "percent" }, "name": "A/F ratio learn value mid.2, bank 1"},
+    {"id": "IS_AF_LEARN_HIGH_PORT_B1", "path": "Engine", "fmt": {"bix": 32, "len": 8, "max": 50, "min": -50, "mul": 100, "div": 255, "add": -50, "unit": "percent" }, "name": "A/F ratio learn value high, bank 1"}
   ]},
 { "hdr": "700", "rax": "708", "cmd": {"22": "10A5"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2023, 2024], "from": 2026 },
   "signals": [
@@ -337,6 +345,10 @@
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "1F3F"}, "freq": 5,
   "signals": [
     {"id": "IS_CAT_T_BANK_2_SENS_2", "path": "Engine", "fmt": { "len": 16, "max": 11756.3, "min": -40, "mul": 9, "div": 50, "add": -40, "unit": "fahrenheit" }, "name": "Catalyst temperature bank 2 sensor 2"}
+  ]},
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1F46"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
+  "signals": [
+    {"id": "IS_AAT", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "nullmin": -40, "unit": "celsius" }, "name": "Ambient temperature"}
   ]},
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "1F5C"}, "freq": 5,
   "signals": [
@@ -574,9 +586,9 @@
   ]},
 { "hdr": "7B0", "rax": "7B8", "dbg": true, "cmd": {"21": "46"}, "freq": 3600,
   "signals": [
-    {"id": "IS_ZP_DEC",      "path": "Orientation", "fmt": {           "len": 8, "max": 24.9, "min": -25.11, "mul": 0.1961568627, "add": -25.11, "unit": "metersPerSecondSquared" }, "name": "Zero point of deceleration"},
-    {"id": "IS_ZP_DEC2",     "path": "Orientation", "fmt": {"bix": 8,  "len": 8, "max": 24.9, "min": -25.11, "mul": 0.1961568627, "add": -25.11, "unit": "metersPerSecondSquared" }, "name": "Zero point of deceleration 2"},
-    {"id": "IS_ZP_YAW_RATE", "path": "Control",     "fmt": {"bix": 16, "len": 8, "max": 127,  "min": -128,                        "add": -128,   "unit": "degrees"                }, "name": "Zero point of yaw rate"}
+    {"id": "IS_ZP_DEC",      "path": "Orientation", "fmt": {           "len": 8, "max": 2.54, "min": -2.56, "div": 50,              "sign": true, "unit": "gravity" }, "name": "Zero point of deceleration"},
+    {"id": "IS_ZP_DEC2",     "path": "Orientation", "fmt": {"bix": 8,  "len": 8, "max": 2.54, "min": -2.56, "div": 50,              "sign": true, "unit": "gravity" }, "name": "Zero point of deceleration 2"},
+    {"id": "IS_ZP_YAW_RATE", "path": "Control",     "fmt": {"bix": 16, "len": 8, "max": 127,  "min": -128,             "add": -128,               "unit": "degrees" }, "name": "Zero point of yaw rate"}
   ]},
 { "hdr": "7B0", "rax": "7B8", "cmd": {"21": "47"}, "freq": 0.25, "filter": { "to": 2020 }, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012, 2015], "from": 2018 },
   "signals": [
@@ -769,7 +781,7 @@
   ]},
 { "hdr": "7C4", "rax": "7CC", "cmd": {"21": "53"}, "freq": 1, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
   "signals": [
-    {"id": "IS_REGULATOR_P", "path": "Engine", "fmt": { "len": 8, "max": 3.29, "min": -0.456, "mul": 3.75105, "div": 255, "add": -0.45668, "unit": "scalar" }, "name": "Regulator pressure sensor"}
+    {"id": "IS_REGULATOR_P", "path": "Engine", "fmt": { "len": 8, "max": 3294, "min": -456.68, "mul": 375105, "div": 25500, "add": -456.68, "unit": "kilopascal" }, "name": "Regulator pressure"}
   ]},
 { "hdr": "7D0", "rax": "7D8", "cmd": {"21": "62"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2015, 2018, 2019, 2020], "from": 2026 },
   "signals": [
@@ -789,40 +801,36 @@
         }}
     }
   ]},
-{ "hdr": "7D2", "rax": "708", "cmd": {"22": "10A2"}, "freq": 3600, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "10A2"}, "freq": 0.25,
   "signals": [
-    {"id": "IS_AF_LEARN_IDLE_PORT_B1", "path": "Engine", "fmt": {           "len": 8, "max": 50, "min": -50, "mul": 100, "div": 255, "add": -50, "unit": "percent" }, "name": "A/F ratio learn value idle, bank 1"},
-    {"id": "IS_AF_LEARN_LOW_PORT_B1",  "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 50, "min": -50, "mul": 100, "div": 255, "add": -50, "unit": "percent" }, "name": "A/F ratio learn value low, bank 1"},
-    {"id": "IS_AF_LEARN_MID1_PORT_B1", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 50, "min": -50, "mul": 100, "div": 255, "add": -50, "unit": "percent" }, "name": "A/F ratio learn value mid.1, bank 1"},
-    {"id": "IS_AF_LEARN_MID2_PORT_B1", "path": "Engine", "fmt": {"bix": 24, "len": 8, "max": 50, "min": -50, "mul": 100, "div": 255, "add": -50, "unit": "percent" }, "name": "A/F ratio learn value mid.2, bank 1"},
-    {"id": "IS_AF_LEARN_HIGH_PORT_B1", "path": "Engine", "fmt": {"bix": 32, "len": 8, "max": 50, "min": -50, "mul": 100, "div": 255, "add": -50, "unit": "percent" }, "name": "A/F ratio learn value high, bank 1"}
+    {"id": "IS_RM_TQ_REQ", "path": "Engine", "fmt": {           "len": 16, "max": 32767, "min": -32768,           "add": -32768, "unit": "newtonMeters" }, "name": "Rear motor torque, requested"},
+    {"id": "IS_RM_TQ",     "path": "Engine", "fmt": {"bix": 48, "len": 16, "max": 4095,  "min": -4096,  "div": 8, "add": -4096,  "unit": "newtonMeters" }, "name": "Rear motor torque"}
   ]},
-{ "hdr": "7D2", "rax": "708", "cmd": {"22": "1F46"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "1F46"}, "freq": 1,
   "signals": [
-    {"id": "IS_AAT", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "nullmin": -40, "unit": "celsius" }, "name": "Ambient temperature"}
+    {"id": "IS_AAT_7D2", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "nullmin": -40, "unit": "celsius" }, "name": "Ambient temperature"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"21": "01"}, "freq": 1, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
   "signals": [
-    {"id": "IS_CALCULATED_LOAD_7E0",      "path": "Engine",   "fmt": {            "len": 8,  "max": 100,               "mul": 100, "div": 255,              "unit": "percent"           }, "name": "Calculated load",              "suggestedMetric": "engineLoad"},
-    {"id": "IS_VEHICLE_LOAD",             "path": "Engine",   "fmt": {"bix": 8,   "len": 16, "max": 25700,             "mul": 100, "div": 255,              "unit": "percent"           }, "name": "Vehicle load"},
-    {"id": "IS_MAF",                      "path": "Engine",   "fmt": {"bix": 24,  "len": 16, "max": 655,                           "div": 100,              "unit": "gramsPerSecond"    }, "name": "Mass air flow",                "suggestedMetric": "massAirFlow"},
-    {"id": "IS_MAP",                      "path": "Engine",   "fmt": {"bix": 40,  "len": 8,  "max": 255,                                                    "unit": "kilopascal"        }, "name": "Manifold absolute pressure"},
-    {"id": "IS_INTAKE_AIR",               "path": "Engine",   "fmt": {"bix": 48,  "len": 8,  "max": 215,   "min": -40,                          "add": -40, "unit": "celsius"           }, "name": "Intake air"},
-    {"id": "IS_AAT_V2",                   "path": "Engine",   "fmt": {"bix": 56,  "len": 8,  "max": 215,   "min": -40,                          "add": -40, "unit": "celsius"           }, "name": "Ambient temperature"},
-    {"id": "IS_ATMOSPHERE_PRESSURE",      "path": "Engine",   "fmt": {"bix": 64,  "len": 8,  "max": 255,                                                    "unit": "kilopascal"        }, "name": "Atmosphere pressure"},
-    {"id": "IS_COOLANT_TEMP",             "path": "Engine",   "fmt": {"bix": 72,  "len": 8,  "max": 215,   "min": -40,                          "add": -40, "unit": "celsius"           }, "name": "Engine coolant temperature",   "suggestedMetric": "engineCoolantTemperature"},
-    {"id": "IS_ENGINE_SPEED",             "path": "Movement", "fmt": {"bix": 80,  "len": 16, "max": 6553,                          "div": 10,               "unit": "rpm"               }, "name": "Engine speed",                 "suggestedMetric": "engineSpeed"},
-    {"id": "IS_VEHICLE_SPEED",            "path": "Movement", "fmt": {"bix": 96,  "len": 8,  "max": 255,                                                    "unit": "kilometersPerHour" }, "name": "Vehicle speed",                "suggestedMetric": "speed"},
-    {"id": "IS_ENGINE_RUN_TIME",          "path": "Engine",   "fmt": {"bix": 104, "len": 16, "max": 65535,                                                  "unit": "seconds"           }, "name": "Engine run time"},
-    {"id": "IS_THROTTLE_SENSOR_POSITION", "path": "Engine",   "fmt": {"bix": 120, "len": 8,  "max": 100,               "mul": 100, "div": 255,              "unit": "percent"           }, "name": "Throttle sensor position",     "suggestedMetric": "throttlePosition"},
-    {"id": "IS_THROTTLE_SENSOR_VOLT",     "path": "Engine",   "fmt": {"bix": 128, "len": 8,  "max": 100,               "mul": 100, "div": 255,              "unit": "percent"           }, "name": "Throttle sensor volt %, 1"},
-    {"id": "IS_THROTTL_SENSOR_2_VOLT",    "path": "Engine",   "fmt": {"bix": 136, "len": 8,  "max": 100,               "mul": 100, "div": 255,              "unit": "percent"           }, "name": "Throttle sensor volt %, 2"},
-    {"id": "IS_ACCEL_SENS_NO_1_VOLT",     "path": "Engine",   "fmt": {"bix": 144, "len": 8,  "max": 100,               "mul": 100, "div": 255,              "unit": "percent"           }, "name": "Accelerator sensor volt %, 1"},
-    {"id": "IS_ACCEL_SENS_NO_2_VOLT",     "path": "Engine",   "fmt": {"bix": 152, "len": 8,  "max": 100,               "mul": 100, "div": 255,              "unit": "percent"           }, "name": "Accelerator sensor volt %, 2"},
-    {"id": "IS_THROTTLE_MOTOR_DUTY",      "path": "Engine",   "fmt": {"bix": 160, "len": 8,  "max": 100,               "mul": 100, "div": 255,              "unit": "percent"           }, "name": "Throttle motor DUTY"},
-    {"id": "IS_WARMUP_CYCLE_CLEARED_DTC", "path": "Engine",   "fmt": {"bix": 176, "len": 8,  "max": 255,                                                    "unit": "scalar"            }, "name": "Warm-up cycle cleared DTC"},
-    {"id": "IS_TIME_AFTER_DTC_CLEARED",   "path": "Engine",   "fmt": {"bix": 192, "len": 16, "max": 65535,                                                  "unit": "minutes"           }, "name": "Time after DTC cleared"},
-    {"id": "IS_BATTERY_VOLTAGE",          "path": "Battery",  "fmt": {"bix": 208, "len": 16, "max": 65.53,                         "div": 1000,             "unit": "volts"             }, "name": "Battery voltage",              "suggestedMetric": "starterBatteryVoltage"}
+    {"id": "IS_CALCULATED_LOAD_7E0",      "path": "Engine",   "fmt": {            "len": 8,  "max": 100,                  "mul": 100, "div": 255,              "unit": "percent"           }, "name": "Calculated load",              "suggestedMetric": "engineLoad"},
+    {"id": "IS_VEHICLE_LOAD",             "path": "Engine",   "fmt": {"bix": 8,   "len": 16, "max": 25700,                "mul": 100, "div": 255,              "unit": "percent"           }, "name": "Vehicle load"},
+    {"id": "IS_MAF",                      "path": "Engine",   "fmt": {"bix": 24,  "len": 16, "max": 655,                              "div": 100,              "unit": "gramsPerSecond"    }, "name": "Mass air flow",                "suggestedMetric": "massAirFlow"},
+    {"id": "IS_MAP",                      "path": "Engine",   "fmt": {"bix": 40,  "len": 8,  "max": 255,                                                       "unit": "kilopascal"        }, "name": "Manifold absolute pressure"},
+    {"id": "IS_INTAKE_AIR",               "path": "Engine",   "fmt": {"bix": 48,  "len": 8,  "max": 215,      "min": -40,                          "add": -40, "unit": "celsius"           }, "name": "Intake air"},
+    {"id": "IS_ATMOSPHERE_PRESSURE",      "path": "Engine",   "fmt": {"bix": 56,  "len": 8,  "max": 255,                                                       "unit": "kilopascal"        }, "name": "Atmosphere pressure"},
+    {"id": "IS_COOLANT_TEMP",             "path": "Engine",   "fmt": {"bix": 64,  "len": 8,  "max": 215,      "min": -40,                          "add": -40, "unit": "celsius"           }, "name": "Engine coolant temperature",   "suggestedMetric": "engineCoolantTemperature"},
+    {"id": "IS_ENGINE_SPEED",             "path": "Movement", "fmt": {"bix": 72,  "len": 16, "max": 16383.75,                         "div": 4,                "unit": "rpm"               }, "name": "Engine speed",                 "suggestedMetric": "engineSpeed"},
+    {"id": "IS_VEHICLE_SPEED",            "path": "Movement", "fmt": {"bix": 88,  "len": 8,  "max": 255,                                                       "unit": "kilometersPerHour" }, "name": "Vehicle speed",                "suggestedMetric": "speed"},
+    {"id": "IS_ENGINE_RUN_TIME",          "path": "Engine",   "fmt": {"bix": 96,  "len": 16, "max": 65535,                                                     "unit": "seconds"           }, "name": "Engine run time"},
+    {"id": "IS_THROTTLE_SENSOR_POSITION", "path": "Engine",   "fmt": {"bix": 112, "len": 8,  "max": 100,                  "mul": 100, "div": 255,              "unit": "percent"           }, "name": "Throttle sensor position",     "suggestedMetric": "throttlePosition"},
+    {"id": "IS_THROTTLE_SENSOR_VOLT",     "path": "Engine",   "fmt": {"bix": 120, "len": 8,  "max": 100,                  "mul": 100, "div": 255,              "unit": "percent"           }, "name": "Throttle sensor volt %, 1"},
+    {"id": "IS_THROTTL_SENSOR_2_VOLT",    "path": "Engine",   "fmt": {"bix": 128, "len": 8,  "max": 100,                  "mul": 100, "div": 255,              "unit": "percent"           }, "name": "Throttle sensor volt %, 2"},
+    {"id": "IS_ACCEL_SENS_NO_1_VOLT",     "path": "Engine",   "fmt": {"bix": 136, "len": 8,  "max": 100,                  "mul": 100, "div": 255,              "unit": "percent"           }, "name": "Accelerator sensor volt %, 1"},
+    {"id": "IS_ACCEL_SENS_NO_2_VOLT",     "path": "Engine",   "fmt": {"bix": 144, "len": 8,  "max": 100,                  "mul": 100, "div": 255,              "unit": "percent"           }, "name": "Accelerator sensor volt %, 2"},
+    {"id": "IS_THROTTLE_MOTOR_DUTY",      "path": "Engine",   "fmt": {"bix": 152, "len": 8,  "max": 100,                  "mul": 100, "div": 255,              "unit": "percent"           }, "name": "Throttle motor DUTY"},
+    {"id": "IS_WARMUP_CYCLE_CLEARED_DTC", "path": "Engine",   "fmt": {"bix": 168, "len": 8,  "max": 255,                                                       "unit": "scalar"            }, "name": "Warm-up cycle cleared DTC"},
+    {"id": "IS_TIME_AFTER_DTC_CLEARED",   "path": "Engine",   "fmt": {"bix": 184, "len": 16, "max": 65535,                                                     "unit": "minutes"           }, "name": "Time after DTC cleared"},
+    {"id": "IS_BATTERY_VOLTAGE",          "path": "Battery",  "fmt": {"bix": 200, "len": 16, "max": 65.53,                            "div": 1000,             "unit": "volts"             }, "name": "Battery voltage",              "suggestedMetric": "starterBatteryVoltage"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"21": "03"}, "freq": 1, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
   "signals": [

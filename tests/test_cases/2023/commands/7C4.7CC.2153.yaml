@@ -1,8 +1,8 @@
 command_id: 7C4.7CC.2153
 test_cases:
 - expected_values:
-    IS_REGULATOR_P: 0.66128
+    IS_REGULATOR_P: 661.28
   response: 7CC0361534C
 - expected_values:
-    IS_REGULATOR_P: 1.52917
+    IS_REGULATOR_P: 1529.17
   response: 7CC03615387

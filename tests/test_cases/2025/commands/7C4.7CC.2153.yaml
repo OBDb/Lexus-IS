@@ -1,32 +1,32 @@
 command_id: 7C4.7CC.2153
 test_cases:
 - expected_values:
-    IS_REGULATOR_P: 0.5436
+    IS_REGULATOR_P: 543.6
   response: 7CC03615344
 - expected_values:
-    IS_REGULATOR_P: 0.55831
+    IS_REGULATOR_P: 558.31
   response: 7CC03615345
 - expected_values:
-    IS_REGULATOR_P: 0.57302
+    IS_REGULATOR_P: 573.02
   response: 7CC03615346
 - expected_values:
-    IS_REGULATOR_P: 0.58773
+    IS_REGULATOR_P: 587.73
   response: 7CC03615347
 - expected_values:
-    IS_REGULATOR_P: 0.60244
+    IS_REGULATOR_P: 602.44
   response: 7CC03615348
 - expected_values:
-    IS_REGULATOR_P: 0.61715
+    IS_REGULATOR_P: 617.15
   response: 7CC03615349
 - expected_values:
-    IS_REGULATOR_P: 0.63186
+    IS_REGULATOR_P: 631.86
   response: 7CC0361534A
 - expected_values:
-    IS_REGULATOR_P: 0.64657
+    IS_REGULATOR_P: 646.57
   response: 7CC0361534B
 - expected_values:
-    IS_REGULATOR_P: 0.67599
+    IS_REGULATOR_P: 675.99
   response: 7CC0361534D
 - expected_values:
-    IS_REGULATOR_P: 0.6907
+    IS_REGULATOR_P: 690.7
   response: 7CC0361534E
