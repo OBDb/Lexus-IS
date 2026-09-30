@@ -4,8 +4,8 @@ test_cases:
     IS_PARKING_BRAKE: 'Off'
   response: 7D80461620100
 - expected_values:
-    IS_PARKING_BRAKE: 'Off'
-  response: 7D80461620154
+    IS_PARKING_BRAKE: 'OFF'
+  response: 7D80461621957
 - expected_values:
-    IS_PARKING_BRAKE: 'Off'
-  response: 7D80461620900
+    IS_PARKING_BRAKE: 'ON'
+  response: 7D80461621B00

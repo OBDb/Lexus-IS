@@ -39,7 +39,7 @@ supported_commands_by_ecu:
   - 0134:LAMBDA11_CURRENT,O2S11_CURRENT
   - 013C:CATEMP11
   - 013D:CATEMP21
-  - 7E0.7E8.2128:IS_ODO_V3
+  - 7E0.7E8.2128|f=2010-:IS_ODO_V3
   - 7E0.7E8.2151:IS_EOT_V2,IS_PREV_TRIP_DST,IS_VVTOT
 unsupported_commands_by_ecu:
   "700":

@@ -51,7 +51,7 @@ supported_commands_by_ecu:
   - 7E0.0146:AAT
   - 7E0.0147:TP_B
   - 7E0.7E8.2121|f=-2020:IS_CC_S
-  - 7E0.7E8.2128:IS_ODO_V3
+  - 7E0.7E8.2128
 unsupported_commands_by_ecu:
   "700":
   - 700.708.221017:IS_INJ_VOL

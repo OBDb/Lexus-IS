@@ -1,4 +1,4 @@
-command_id: 7E0.7E8.2128
+command_id: 7E0.7E8.2128|f=2010-
 test_cases:
 - expected_values:
     IS_ODO_V3: 286526
@@ -20,5 +20,5 @@ test_cases:
     7E80561280297ED
     7EA0561280297ED
 - expected_values:
-    IS_ODO_V3: 16777215
-  response: 7E8056128FFFFFF
+    IS_ODO_V3: 175121
+  response: 7E805612802AC11

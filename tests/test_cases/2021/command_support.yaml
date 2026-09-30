@@ -145,5 +145,5 @@ unsupported_commands_by_ecu:
   - 7E0.2121
   - 7E0.2182
   - 7E0.2185
-  - 7E0.7E8.2128:IS_ODO_V3
+  - 7E0.7E8.2128|f=2010-:IS_ODO_V3
   - 7E0.7E8.2151:IS_EOT_V2,IS_PREV_TRIP_DST,IS_VVTOT
