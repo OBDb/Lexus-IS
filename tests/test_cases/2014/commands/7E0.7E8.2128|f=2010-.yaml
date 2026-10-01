@@ -20,5 +20,5 @@ test_cases:
     7E80561280297ED
     7EA0561280297ED
 - expected_values:
-    IS_ODO_V3: 175121
-  response: 7E805612802AC11
+    IS_ODO_V3: null
+  response: 7E8056128FFFFFF
