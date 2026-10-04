@@ -1,0 +1,6 @@
+command_id: 7C4.2144
+test_cases:
+- expected_values:
+    IS_AIR_INLET_DAMPER_ACT: 78
+    IS_AIR_INLET_DAMPER_TGT: 78
+  response: 7CC0661444E4E0600

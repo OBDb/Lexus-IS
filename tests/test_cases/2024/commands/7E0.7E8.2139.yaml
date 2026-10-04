@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2139
+test_cases:
+- expected_values:
+    IS_ACIS_VSV_ON: 0
+    IS_EVAP_PURGE_VSV_ON: 0
+    IS_FUEL_PMP_SPD_STAT_ON: 0
+    IS_VARIABLE_VLV_TIM_1_ON: 0
+  response: '7E8056139000000'
+- expected_values:
+    IS_ACIS_VSV_ON: 1
+    IS_EVAP_PURGE_VSV_ON: 0
+    IS_FUEL_PMP_SPD_STAT_ON: 0
+    IS_VARIABLE_VLV_TIM_1_ON: 0
+  response: '7E8056139100000'

@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.21B2
+test_cases:
+- expected_values:
+    IS_KNOCK_ADJUST: -60.03119
+    IS_KNOCK_FEEDBACK: 1459.867
+  response: |-
+    7E8100D61B2007FBE7B
+    7E821E477607B820000
+- expected_values:
+    IS_KNOCK_ADJUST: -60.03119
+    IS_KNOCK_FEEDBACK: 1459.867
+  response: |-
+    7E8100D61B2007FBE7B
+    7E821E477607B820001

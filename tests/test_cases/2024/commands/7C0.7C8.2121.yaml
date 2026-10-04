@@ -1,0 +1,17 @@
+command_id: 7C0.7C8.2121
+test_cases:
+- expected_values:
+    IS_VSS_7C0: 0
+  response: 7C803612100
+- expected_values:
+    IS_VSS_7C0: 13
+  response: 7C80361210D
+- expected_values:
+    IS_VSS_7C0: 43
+  response: 7C80361212B
+- expected_values:
+    IS_VSS_7C0: 74
+  response: 7C80361214A
+- expected_values:
+    IS_VSS_7C0: 75
+  response: 7C80361214B
