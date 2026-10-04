@@ -10,5 +10,5 @@ test_cases:
     IS_ATF_T_V_10_7E1: 46.875
   response: 7E904618256E0
 - expected_values:
-    IS_ATF_T_V_10_7E1: 75
-  response: '7E90461827300'
+    IS_ATF_T_V_10_7E1: 82.5
+  response: 7E90461827A80
