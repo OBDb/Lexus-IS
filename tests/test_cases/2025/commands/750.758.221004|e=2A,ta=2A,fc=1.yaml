@@ -49,3 +49,11 @@ test_cases:
   response: |-
     7582A10086210044145
     7582A21424400000000
+- expected_values:
+    IS_TT_1: 26
+    IS_TT_2: 31
+    IS_TT_3: 27
+    IS_TT_4: 30
+  response: |-
+    7582A10086210044247
+    7582A21434600000000
