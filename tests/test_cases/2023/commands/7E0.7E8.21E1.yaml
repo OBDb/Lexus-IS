@@ -1,0 +1,27 @@
+command_id: 7E0.7E8.21E1
+test_cases:
+- expected_values:
+    IS_CODES_INCLUDE: 1
+  response: |-
+    7E8100A61E101021214
+    7E82100000501000000
+- expected_values:
+    IS_CODES_INCLUDE: 1
+  response: |-
+    7E8100A61E101021214
+    7E8210000087F000000
+- expected_values:
+    IS_CODES_INCLUDE: 1
+  response: |-
+    7E8100A61E101021214
+    7E82100000880000000
+- expected_values:
+    IS_CODES_INCLUDE: 1
+  response: |-
+    7E8100A61E101021214
+    7E82100000FA1000000
+- expected_values:
+    IS_CODES_INCLUDE: 1
+  response: |-
+    7E8100A61E101021214
+    7E821000010CA000000
