@@ -1,8 +1,8 @@
 command_id: 7E1.7E9.2182
 test_cases:
 - expected_values:
-    IS_ATF_T_V_10_7E1: 23.125
-  response: 7E90461823F20
+    IS_ATF_T_V_10_7E1: 21.25
+  response: 7E90461823D40
 - expected_values:
     IS_ATF_T_V_10_7E1: 25
   response: '7E90461824100'
