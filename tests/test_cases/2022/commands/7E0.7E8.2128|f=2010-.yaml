@@ -1,23 +1,11 @@
 command_id: 7E0.7E8.2128|f=2010-
 test_cases:
 - expected_values:
-    IS_ODO_V3: 77281
-  response: 7E8056128012DE1
+    IS_ODO_V3: 65284
+  response: 7E805612800FF04
 - expected_values:
-    IS_ODO_V3: 77282
-  response: 7E8056128012DE2
+    IS_ODO_V3: 65535
+  response: 7E805612800FFFF
 - expected_values:
-    IS_ODO_V3: 77283
-  response: 7E8056128012DE3
-- expected_values:
-    IS_ODO_V3: 77284
-  response: 7E8056128012DE4
-- expected_values:
-    IS_ODO_V3: 77285
-  response: 7E8056128012DE5
-- expected_values:
-    IS_ODO_V3: 77286
-  response: 7E8056128012DE6
-- expected_values:
-    IS_ODO_V3: 77298
-  response: 7E8056128012DF2
+    IS_ODO_V3: 65536
+  response: '7E8056128010000'

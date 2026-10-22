@@ -9,11 +9,11 @@ test_cases:
     IS_ODO_V3: 165132
   response: 7E805612802850C
 - expected_values:
-    IS_ODO_V3: 169727
-  response: 7E80561280296FF
+    IS_ODO_V3: 166144
+  response: '7E8056128028900'
 - expected_values:
-    IS_ODO_V3: 169728
-  response: '7E8056128029700'
+    IS_ODO_V3: 166399
+  response: 7E80561280289FF
 - expected_values:
     IS_ODO_V3: 169965
   response: |-

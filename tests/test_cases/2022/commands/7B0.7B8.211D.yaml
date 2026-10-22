@@ -1,0 +1,18 @@
+command_id: 7B0.7B8.211D
+test_cases:
+- expected_values:
+    IS_MAIN_IDLE_SW: 0
+    IS_RESERVOIR_WARNING_SW: 0
+  response: 7B803611D00
+- expected_values:
+    IS_MAIN_IDLE_SW: 1
+    IS_RESERVOIR_WARNING_SW: 0
+  response: 7B803611D20
+- expected_values:
+    IS_MAIN_IDLE_SW: 0
+    IS_RESERVOIR_WARNING_SW: 0
+  response: 7B803611D80
+- expected_values:
+    IS_MAIN_IDLE_SW: 1
+    IS_RESERVOIR_WARNING_SW: 0
+  response: 7B803611DA0

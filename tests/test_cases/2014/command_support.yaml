@@ -1,6 +1,7 @@
 model_year: 2014
 supported_commands_by_ecu:
   "750":
+  - '750.2115'
   - 750.758.2116|e=2A,fc=1:IS_TT_FL_V2,IS_TT_FR_V2,IS_TT_RL_V2,IS_TT_RR_V2,IS_TT_SPARE
   - 750.758.2130|e=2A,ta=2A,fc=1:IS_TP_FL,IS_TP_FR,IS_TP_RL,IS_TP_RR,IS_TP_SPARE
   "7B0":
@@ -115,6 +116,7 @@ supported_commands_by_ecu:
   - 7E2.7EA.0149
   - 7E2.7EA.014A
   - 7E2.7EA.015B
+  - 7E2.7EA.0165
 unsupported_commands_by_ecu:
   "6F1":
   - 6F1.221700
@@ -188,7 +190,6 @@ unsupported_commands_by_ecu:
   - '747.220103'
   - 747.22182E
   "750":
-  - '750.2115'
   - '750.2116'
   - '750.2130'
   - '750.221004'
@@ -228,6 +229,7 @@ unsupported_commands_by_ecu:
   - 7D2.708.221F46
   - 7D2.7DA.220103
   - 7D2.7DA.221040
+  - 7D2.7DA.22106C
   - 7D2.7DA.221075
   - 7D2.7DA.2210A1
   - 7D2.7DA.2210A2:IS_RM_TQ,IS_RM_TQ_REQ
