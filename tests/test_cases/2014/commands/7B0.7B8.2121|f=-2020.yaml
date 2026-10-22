@@ -4,5 +4,5 @@ test_cases:
     IS_VSS: 0
   response: 7B803612100
 - expected_values:
-    IS_VSS: 87.04
-  response: 7B803612144
+    IS_VSS: 133.12
+  response: 7B803612168

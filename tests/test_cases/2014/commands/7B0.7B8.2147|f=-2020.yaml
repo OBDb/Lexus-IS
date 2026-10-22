@@ -3,83 +3,83 @@ test_cases:
 - expected_values:
     IS_LAT_G: 0
     IS_LNG_G: 0
-    IS_STEER_ANGLE: -230
-    IS_YAW_RATE: 0
+    IS_STEER_ANGLE: -163.4
+    IS_YAW_RATE: -9
   response: |-
-    7B81009614700008077
-    7B8210400ED00000000
+    7B81009614700007779
+    7B8219E000000000000
 - expected_values:
     IS_LAT_G: 0
     IS_LNG_G: 0
-    IS_STEER_ANGLE: -123.1
-    IS_YAW_RATE: 0
+    IS_STEER_ANGLE: -311.9
+    IS_YAW_RATE: -1
   response: |-
-    7B8100961470000807B
-    7B82131000200000000
+    7B81009614700007F73
+    7B821D100FD00000000
 - expected_values:
     IS_LAT_G: 0
     IS_LNG_G: 0
-    IS_STEER_ANGLE: -37.9
-    IS_YAW_RATE: 0
+    IS_STEER_ANGLE: -26.1
+    IS_YAW_RATE: -1
   response: |-
-    7B8100961470000807E
-    7B8218500FE00000000
+    7B81009614700007F7E
+    7B821FB000000000000
 - expected_values:
     IS_LAT_G: 0
     IS_LNG_G: 0
-    IS_STEER_ANGLE: -4.4
+    IS_STEER_ANGLE: -25.9
+    IS_YAW_RATE: -1
+  response: |-
+    7B81009614700007F7E
+    7B821FD00FF00000000
+- expected_values:
+    IS_LAT_G: 0
+    IS_LNG_G: 0
+    IS_STEER_ANGLE: -24.9
+    IS_YAW_RATE: -1
+  response: |-
+    7B81009614700007F7F
+    7B82107000000000000
+- expected_values:
+    IS_LAT_G: 0
+    IS_LNG_G: 0
+    IS_STEER_ANGLE: -388.8
+    IS_YAW_RATE: 0
+  response: |-
+    7B81009614700008070
+    7B821D0000000000000
+- expected_values:
+    IS_LAT_G: 0
+    IS_LNG_G: 0
+    IS_STEER_ANGLE: -22.5
     IS_YAW_RATE: 0
   response: |-
     7B8100961470000807F
-    7B821D400F000000000
+    7B8211F00ED00000000
 - expected_values:
     IS_LAT_G: 0
-    IS_LNG_G: 0
-    IS_STEER_ANGLE: -3.2
-    IS_YAW_RATE: 0
+    IS_LNG_G: 0.02
+    IS_STEER_ANGLE: 518.1
+    IS_YAW_RATE: 5
   response: |-
-    7B8100961470000807F
-    7B821E0000000000000
-- expected_values:
-    IS_LAT_G: 0
-    IS_LNG_G: 0
-    IS_STEER_ANGLE: -1.7
-    IS_YAW_RATE: 0
-  response: |-
-    7B8100961470000807F
-    7B821EF00F200000000
-- expected_values:
-    IS_LAT_G: 0
-    IS_LNG_G: 0
-    IS_STEER_ANGLE: -1.6
-    IS_YAW_RATE: 0
-  response: |-
-    7B8100961470000807F
-    7B821F000F200000000
-- expected_values:
-    IS_LAT_G: 0
-    IS_LNG_G: 0
-    IS_STEER_ANGLE: 1
-    IS_YAW_RATE: 0
-  response: |-
-    7B81009614700008080
-    7B8210A00EF00000000
+    7B81009614700018594
+    7B8213D000200000000
 - expected_values:
     IS_LAT_G: 0
     IS_LNG_G: -0.02
-    IS_STEER_ANGLE: -17.9
-    IS_YAW_RATE: 0
+    IS_STEER_ANGLE: 519.8
+    IS_YAW_RATE: -8
   response: |-
-    7B81009614700FF807F
-    7B8214D00F500000000
+    7B81009614700FF7894
+    7B8214E000200000000
 - expected_values:
-    IS_LAT_G: 0.48
-    IS_LNG_G: -0.14
-    IS_STEER_ANGLE: 312
+    IS_LAT_G: 0.24
+    IS_LNG_G: 0.04
+    IS_STEER_ANGLE: 409.8
     IS_YAW_RATE: 40
   response: |-
-    7B81009614718F9A88C
-    7B82130000000000000
+    7B8100961470C02A890
+    7B82102000700000000
 - expected_values:
     IS_LAT_G: -0.16
     IS_LNG_G: -0.08
@@ -89,26 +89,18 @@ test_cases:
     7B810096147F8FC5D6D
     7B8218C000000000000
 - expected_values:
+    IS_LAT_G: -0.06
+    IS_LNG_G: 0.02
+    IS_STEER_ANGLE: -509.3
+    IS_YAW_RATE: 5
+  response: |-
+    7B810096147FD01856C
+    7B8211B00FD00000000
+- expected_values:
     IS_LAT_G: -0.02
     IS_LNG_G: 0
-    IS_STEER_ANGLE: -4.7
-    IS_YAW_RATE: -1
+    IS_STEER_ANGLE: -323.6
+    IS_YAW_RATE: -11
   response: |-
-    7B810096147FF007F7F
-    7B821D1000000000000
-- expected_values:
-    IS_LAT_G: -0.02
-    IS_LNG_G: -0.02
-    IS_STEER_ANGLE: 497.9
-    IS_YAW_RATE: 1
-  response: |-
-    7B810096147FFFF8193
-    7B8217300FE00000000
-- expected_values:
-    IS_LAT_G: -0.02
-    IS_LNG_G: -0.02
-    IS_STEER_ANGLE: -508.5
-    IS_YAW_RATE: 8
-  response: |-
-    7B810096147FFFF886C
-    7B82123000200000000
+    7B810096147FF007573
+    7B8215C000100000000
