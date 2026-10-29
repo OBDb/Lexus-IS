@@ -1,0 +1,9 @@
+command_id: 7B0.7B8.2146
+test_cases:
+- expected_values:
+    IS_ZP_DEC: 0
+    IS_ZP_DEC2: 0
+    IS_ZP_YAW_RATE: 0
+  response: |-
+    7B8100961460000807F
+    7B821D31E0300000000

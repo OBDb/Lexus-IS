@@ -1,0 +1,47 @@
+command_id: 7E0.7E8.21E1
+test_cases:
+- expected_values:
+    IS_CODES_INCLUDE: 0
+  response: |-
+    7E8100A61E100000720
+    7E82120008EBC000000
+- expected_values:
+    IS_CODES_INCLUDE: 0
+  response: |-
+    7E8100A61E100000720
+    7E82120008FC8000000
+- expected_values:
+    IS_CODES_INCLUDE: 0
+  response: |-
+    7E8100A61E100000720
+    7E821200090F9000000
+- expected_values:
+    IS_CODES_INCLUDE: 0
+  response: |-
+    7E8100A61E100000720
+    7E8212000920A000000
+- expected_values:
+    IS_CODES_INCLUDE: 0
+  response: |-
+    7E8100A61E100000720
+    7E82120009313000000
+- expected_values:
+    IS_CODES_INCLUDE: 0
+  response: |-
+    7E8100A61E100000720
+    7E8212000941B000000
+- expected_values:
+    IS_CODES_INCLUDE: 0
+  response: |-
+    7E8100A61E100000720
+    7E8212000953D000000
+- expected_values:
+    IS_CODES_INCLUDE: 0
+  response: |-
+    7E8100A61E100000720
+    7E82120009645000000
+- expected_values:
+    IS_CODES_INCLUDE: 0
+  response: |-
+    7E8100A61E100000720
+    7E82120009751000000
