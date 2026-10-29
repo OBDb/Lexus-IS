@@ -1,0 +1,9 @@
+command_id: 7B0.7B8.213D
+test_cases:
+- expected_values:
+    IS_ABS_WARN: 0
+    IS_BRAKE_WARN: 0
+    IS_BUZZER: 0
+    IS_ECB_WARN: 0
+    IS_SLIP_WARN: 0
+  response: 7B806613D00000000

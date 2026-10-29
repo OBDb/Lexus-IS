@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2131
+test_cases:
+- expected_values:
+    IS_VALVEMATIC_CURRENT: 66.875
+  response: 7E80661311AC07DDB
+- expected_values:
+    IS_VALVEMATIC_CURRENT: 67.5
+  response: 7E80661311B007DEB
