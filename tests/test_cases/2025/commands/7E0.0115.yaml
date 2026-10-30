@@ -4,5 +4,8 @@ test_cases:
     O2S12: 0.135
   response: 7E80441151BFF
 - expected_values:
+    O2S12: 0.25
+  response: 7E804411532FF
+- expected_values:
     O2S12: 0.78
   response: 7E80441159CFF
