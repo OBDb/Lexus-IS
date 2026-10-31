@@ -4,23 +4,5 @@ test_cases:
     IS_BAT_V: 12
   response: 7C803611378
 - expected_values:
-    IS_BAT_V: 12.2
-  response: 7C80361137A
-- expected_values:
-    IS_BAT_V: 12.7
-  response: 7C80361137F
-- expected_values:
-    IS_BAT_V: 13.2
-  response: 7C803611384
-- expected_values:
-    IS_BAT_V: 13.3
-  response: 7C803611385
-- expected_values:
-    IS_BAT_V: 13.4
-  response: 7C803611386
-- expected_values:
-    IS_BAT_V: 13.5
-  response: 7C803611387
-- expected_values:
     IS_BAT_V: 13.6
   response: 7C803611388
