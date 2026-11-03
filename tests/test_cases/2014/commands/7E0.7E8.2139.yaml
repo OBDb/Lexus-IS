@@ -1,0 +1,30 @@
+command_id: 7E0.7E8.2139
+test_cases:
+- expected_values:
+    IS_ACIS_VSV_ON: 0
+    IS_EVAP_PURGE_VSV_ON: 0
+    IS_FUEL_PMP_SPD_STAT_ON: 1
+    IS_TQ_CONV_TE1_ON: 0
+    IS_VARIABLE_VLV_TIM_1_ON: 0
+  response: '7E806613900020020'
+- expected_values:
+    IS_ACIS_VSV_ON: 1
+    IS_EVAP_PURGE_VSV_ON: 0
+    IS_FUEL_PMP_SPD_STAT_ON: 0
+    IS_TQ_CONV_TE1_ON: 0
+    IS_VARIABLE_VLV_TIM_1_ON: 0
+  response: '7E806613910000000'
+- expected_values:
+    IS_ACIS_VSV_ON: 1
+    IS_EVAP_PURGE_VSV_ON: 0
+    IS_FUEL_PMP_SPD_STAT_ON: 0
+    IS_TQ_CONV_TE1_ON: 0
+    IS_VARIABLE_VLV_TIM_1_ON: 0
+  response: '7E806613910000020'
+- expected_values:
+    IS_ACIS_VSV_ON: 1
+    IS_EVAP_PURGE_VSV_ON: 0
+    IS_FUEL_PMP_SPD_STAT_ON: 1
+    IS_TQ_CONV_TE1_ON: 0
+    IS_VARIABLE_VLV_TIM_1_ON: 0
+  response: '7E806613910020020'

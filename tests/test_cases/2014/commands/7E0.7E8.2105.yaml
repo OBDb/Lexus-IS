@@ -1,0 +1,27 @@
+command_id: 7E0.7E8.2105
+test_cases:
+- expected_values:
+    IS_CATALYST_T_B1S2: 449.7
+  response: |-
+    7E810086105051E178C
+    7E82113210000000000
+- expected_values:
+    IS_CATALYST_T_B1S2: 292
+  response: |-
+    7E81008610505461635
+    7E8210CF80000000000
+- expected_values:
+    IS_CATALYST_T_B1S2: 459.2
+  response: |-
+    7E81008610505921645
+    7E82113800000000000
+- expected_values:
+    IS_CATALYST_T_B1S2: 451.9
+  response: |-
+    7E81008610506311574
+    7E82113370000000000
+- expected_values:
+    IS_CATALYST_T_B1S2: 382.3
+  response: |-
+    7E81008610506591909
+    7E821107F0000000000
