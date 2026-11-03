@@ -13,4 +13,18 @@ test_cases:
     IS_ZP_YAW_RATE: 0
   response: |-
     7B8100D614600008080
+    7B82100FF010000E913
+- expected_values:
+    IS_ZP_DEC: 0
+    IS_ZP_DEC2: 0
+    IS_ZP_YAW_RATE: 0
+  response: |-
+    7B8100D614600008080
     7B82100FF020000E813
+- expected_values:
+    IS_ZP_DEC: 0
+    IS_ZP_DEC2: 0
+    IS_ZP_YAW_RATE: 0
+  response: |-
+    7B8100D614600008080
+    7B82100FF020000E913

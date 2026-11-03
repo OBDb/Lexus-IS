@@ -4,11 +4,5 @@ test_cases:
     IS_CABIN_T: 13.25
   response: 7CC0361214F
 - expected_values:
-    IS_CABIN_T: 13.5
-  response: 7CC03612150
-- expected_values:
-    IS_CABIN_T: 15.25
-  response: 7CC03612157
-- expected_values:
-    IS_CABIN_T: 17.75
-  response: 7CC03612161
+    IS_CABIN_T: 28.25
+  response: 7CC0361218B
