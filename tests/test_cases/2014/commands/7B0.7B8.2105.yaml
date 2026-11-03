@@ -5,22 +5,14 @@ test_cases:
     IS_DECEL_2: 0.49906
   response: 7B80561057B8300
 - expected_values:
-    IS_DECEL: -0.49906
-    IS_DECEL_2: -0.21388
-  response: 7B80561057C7E00
-- expected_values:
     IS_DECEL: -0.35647
-    IS_DECEL_2: -0.21388
-  response: 7B80561057D7E00
-- expected_values:
-    IS_DECEL: 0.07129
-    IS_DECEL_2: -0.35647
-  response: 7B8056105807D00
-- expected_values:
-    IS_DECEL: 0.07129
-    IS_DECEL_2: -0.07129
-  response: 7B8056105807F0A
+    IS_DECEL_2: 1.06941
+  response: 7B80561057D8700
 - expected_values:
     IS_DECEL: 0.21388
     IS_DECEL_2: -2.21012
   response: 7B8056105817039
+- expected_values:
+    IS_DECEL: 0.78424
+    IS_DECEL_2: -0.49906
+  response: 7B8056105857C1F

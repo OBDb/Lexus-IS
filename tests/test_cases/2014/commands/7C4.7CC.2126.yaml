@@ -4,11 +4,5 @@ test_cases:
     IS_ECT: 35.6
   response: 7CC03612662
 - expected_values:
-    IS_ECT: 40.15
-  response: 7CC0361266F
-- expected_values:
-    IS_ECT: 45.75
-  response: 7CC0361267F
-- expected_values:
-    IS_ECT: 53.45
-  response: 7CC03612695
+    IS_ECT: 76.9
+  response: 7CC036126D8

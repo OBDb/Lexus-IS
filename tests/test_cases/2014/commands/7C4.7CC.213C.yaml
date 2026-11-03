@@ -4,11 +4,5 @@ test_cases:
     IS_BLOWER_MOTOR_SPEED_LEVEL: 0
   response: 7CC03613C00
 - expected_values:
-    IS_BLOWER_MOTOR_SPEED_LEVEL: 6
-  response: 7CC03613C06
-- expected_values:
-    IS_BLOWER_MOTOR_SPEED_LEVEL: 10
-  response: 7CC03613C0A
-- expected_values:
     IS_BLOWER_MOTOR_SPEED_LEVEL: 20
   response: 7CC03613C14

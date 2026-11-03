@@ -9,19 +9,29 @@ test_cases:
     IS_CODES_INCLUDE: 0
   response: |-
     7E8100A61E1000047F7
-    7E82100000838000000
-- expected_values:
-    IS_CODES_INCLUDE: 0
-  response: |-
-    7E8100A61E1000047F7
-    7E82100000963000000
-- expected_values:
-    IS_CODES_INCLUDE: 0
-  response: |-
-    7E8100A61E1000047F7
     7E82100000B1F000000
 - expected_values:
     IS_CODES_INCLUDE: 0
   response: |-
-    7E8100A61E1000047F7
-    7E82100000C5B000000
+    7E8100A61E1000047F8
+    7E82100000113000000
+- expected_values:
+    IS_CODES_INCLUDE: 0
+  response: |-
+    7E8100A61E1000047F8
+    7E82100001680000000
+- expected_values:
+    IS_CODES_INCLUDE: 0
+  response: |-
+    7E8100A61E1000047F8
+    7E8210000201A000000
+- expected_values:
+    IS_CODES_INCLUDE: 0
+  response: |-
+    7E8100A61E1000047F8
+    7E82100002FB1000000
+- expected_values:
+    IS_CODES_INCLUDE: 0
+  response: |-
+    7E8100A61E1000047F8
+    7E821000050C5000000

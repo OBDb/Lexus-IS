@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     IS_EGR_STEP_POSITION: 0
   response: '7E803614700'
+- expected_values:
+    IS_EGR_STEP_POSITION: 27
+  response: 7E80361471B
