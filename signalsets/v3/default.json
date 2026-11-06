@@ -517,7 +517,7 @@
     {"id": "IS_TP_4", "path": "Tires", "fmt": {"bix": 56, "len": 8, "max": 56.12, "div": 4.125, "add": -5.6969697, "nullmin": 0, "unit": "psi" }, "name": "Rear left tire pressure",   "suggestedMetric": "rearLeftTirePressure"},
     {"id": "IS_TP_5", "path": "Tires", "fmt": {"bix": 72, "len": 8, "max": 56.12, "div": 4.125, "add": -5.6969697, "nullmin": 0, "unit": "psi" }, "name": "Spare tire pressure"}
   ]},
-{ "hdr": "780", "rax": "788", "cmd": {"21": "04"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2015, 2016, 2017, 2018, 2019, 2020, 2021], "from": 2026 },
+{ "hdr": "780", "rax": "788", "cmd": {"21": "04"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2015, 2016, 2018, 2019, 2020, 2021], "from": 2026 },
   "signals": [
     {"id": "IS_BUCKLE_RS", "path": "Seatbelts", "fmt": {"bix": 24, "len": 8, "max": 255, "unit": "scalar" }, "name": "Buckle switch, right side"},
     {"id": "IS_BUCKLE_LS", "path": "Seatbelts", "fmt": {"bix": 32, "len": 8, "max": 255, "unit": "scalar" }, "name": "Buckle switch, left side"}
@@ -537,12 +537,12 @@
     {"id": "IS_TIRE_RR_SPD", "path": "Movement", "fmt": {"bix": 16, "len": 8, "max": 326.4, "mul": 256, "div": 200, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"},
     {"id": "IS_TIRE_RL_SPD", "path": "Movement", "fmt": {"bix": 24, "len": 8, "max": 326.4, "mul": 256, "div": 200, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "05"}, "freq": 0.25, "dbgfilter": { "to": 2012, "years": [2015, 2016, 2017, 2018, 2019, 2020, 2021], "from": 2023 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "05"}, "freq": 0.25, "dbgfilter": { "to": 2012, "years": [2015, 2016, 2018, 2019, 2020, 2021], "from": 2023 },
   "signals": [
     {"id": "IS_DECEL",   "path": "Orientation", "fmt": {          "len": 8, "max": 18.18, "min": -18.18, "mul": 36.36, "div": 255, "add": -18.18, "unit": "metersPerSecondSquared" }, "name": "Deceleration"},
     {"id": "IS_DECEL_2", "path": "Orientation", "fmt": {"bix": 8, "len": 8, "max": 18.18, "min": -18.18, "mul": 36.36, "div": 255, "add": -18.18, "unit": "metersPerSecondSquared" }, "name": "Deceleration 2"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "06"}, "freq": 0.25, "dbgfilter": { "to": 2012, "years": [2015, 2016, 2017, 2018, 2019, 2020, 2021], "from": 2023 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "06"}, "freq": 0.25, "dbgfilter": { "to": 2012, "years": [2015, 2016, 2018, 2019, 2020, 2021], "from": 2023 },
   "signals": [
     {"id": "IS_YAW_RATE_7B0", "path": "Orientation", "fmt": {          "len": 8, "max": 127, "min": -128, "add": -128, "unit": "degrees" }, "name": "Yaw rate sensor"},
     {"id": "IS_YAW_RATE2",    "path": "Orientation", "fmt": {"bix": 8, "len": 8, "max": 127, "min": -128, "add": -128, "unit": "degrees" }, "name": "Yaw rate sensor, alternate"}
@@ -556,7 +556,7 @@
     {"id": "IS_RESERVOIR_WARNING_SW", "path": "Control", "fmt": {"bix": 1, "len": 1, "max": 1, "unit": "offon" }, "name": "Reservoir warning"},
     {"id": "IS_MAIN_IDLE_SW",         "path": "Control", "fmt": {"bix": 2, "len": 1, "max": 1, "unit": "offon" }, "name": "Main idle"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "1F"}, "freq": 2, "dbgfilter": { "to": 2012, "years": [2015, 2016, 2017, 2018, 2019, 2020, 2021], "from": 2023 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "1F"}, "freq": 2, "dbgfilter": { "to": 2012, "years": [2015, 2016, 2018, 2019, 2020, 2021], "from": 2023 },
   "signals": [
     {"id": "IS_STOP_LIGHT_SW",    "path": "Lights",  "fmt": {          "len": 1, "max": 1, "unit": "offon" }, "name": "Stop light"},
     {"id": "IS_PARKING_BRAKE_SW", "path": "Control", "fmt": {"bix": 1, "len": 1, "max": 1, "unit": "offon" }, "name": "Parking brake"}
@@ -565,11 +565,11 @@
   "signals": [
     {"id": "IS_VSS", "path": "Movement", "fmt": { "len": 8, "max": 326, "mul": 1.28, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed", "description": "Current vehicle speed."}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "3C"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2015, 2016, 2017, 2018, 2019, 2020, 2021], "from": 2023 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "3C"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2015, 2016, 2018, 2019, 2020, 2021], "from": 2023 },
   "signals": [
     {"id": "IS_STOP_LIGHT_RELAY", "path": "Lights", "fmt": { "len": 1, "max": 1, "unit": "offon" }, "name": "Stop light relay"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "3D"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2015, 2016, 2017, 2018, 2019, 2020, 2021], "from": 2023 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "3D"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2015, 2016, 2018, 2019, 2020, 2021], "from": 2023 },
   "signals": [
     {"id": "IS_ABS_WARN",   "path": "Control", "fmt": {          "len": 1, "max": 1, "unit": "offon" }, "name": "Anti-lock brake system warning light"},
     {"id": "IS_BRAKE_WARN", "path": "Control", "fmt": {"bix": 1, "len": 1, "max": 1, "unit": "offon" }, "name": "Brake warning light"},
@@ -577,14 +577,14 @@
     {"id": "IS_BUZZER",     "path": "Control", "fmt": {"bix": 3, "len": 1, "max": 1, "unit": "offon" }, "name": "Buzzer"},
     {"id": "IS_ECB_WARN",   "path": "Control", "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "offon" }, "name": "Electronically controlled brake warning light"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "42"}, "freq": 0.25, "dbgfilter": { "to": 2012, "years": [2015, 2016, 2017, 2018, 2019, 2020, 2021], "from": 2023 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "42"}, "freq": 0.25, "dbgfilter": { "to": 2012, "years": [2015, 2016, 2018, 2019, 2020, 2021], "from": 2023 },
   "signals": [
     {"id": "IS_FR_WHEEL_ACCELERATION", "path": "Movement", "fmt": {           "len": 8, "max": 199.27, "min": -200.83, "mul": 1.56906, "sign": true, "unit": "metersPerSecondSquared" }, "name": "Front right wheel acceleration"},
     {"id": "IS_FL_WHEEL_ACCELERATION", "path": "Movement", "fmt": {"bix": 8,  "len": 8, "max": 199.27, "min": -200.83, "mul": 1.56906, "sign": true, "unit": "metersPerSecondSquared" }, "name": "Front left wheel acceleration"},
     {"id": "IS_RR_WHEEL_ACCELERATION", "path": "Movement", "fmt": {"bix": 16, "len": 8, "max": 199.27, "min": -200.83, "mul": 1.56906, "sign": true, "unit": "metersPerSecondSquared" }, "name": "Rear right wheel acceleration"},
     {"id": "IS_RL_WHEEL_ACCELERATION", "path": "Movement", "fmt": {"bix": 24, "len": 8, "max": 199.27, "min": -200.83, "mul": 1.56906, "sign": true, "unit": "metersPerSecondSquared" }, "name": "Rear left wheel acceleration"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "46"}, "freq": 3600, "dbgfilter": { "to": 2012, "years": [2015, 2016, 2017, 2018, 2019, 2020, 2021], "from": 2023 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "46"}, "freq": 3600, "dbgfilter": { "to": 2012, "years": [2015, 2016, 2018, 2019, 2020, 2021], "from": 2023 },
   "signals": [
     {"id": "IS_ZP_DEC",      "path": "Orientation", "fmt": {           "len": 8, "max": 2.54, "min": -2.56, "div": 50,              "sign": true, "unit": "gravity" }, "name": "Zero point of deceleration"},
     {"id": "IS_ZP_DEC2",     "path": "Orientation", "fmt": {"bix": 8,  "len": 8, "max": 2.54, "min": -2.56, "div": 50,              "sign": true, "unit": "gravity" }, "name": "Zero point of deceleration 2"},
@@ -597,7 +597,7 @@
     {"id": "IS_YAW_RATE",    "path": "Orientation", "fmt": {"bix": 16, "len": 8,  "max": 127,  "min": -128,             "add": -128,                  "unit": "degrees" }, "name": "Yaw rate value"},
     {"id": "IS_STEER_ANGLE", "path": "Control",     "fmt": {"bix": 24, "len": 16, "max": 3276, "min": -3276, "div": 10, "add": -3276.8,               "unit": "degrees" }, "name": "Steering wheel angle", "description": "Positive = counter-clockwise, negative = clockwise."}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "5A"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2015, 2016, 2017, 2018, 2019, 2020, 2021], "from": 2023 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "5A"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2015, 2016, 2018, 2019, 2020, 2021], "from": 2023 },
   "signals": [
     {"id": "IS_TRC_TRAC",        "path": "Tires", "fmt": {           "len": 1, "max": 1, "unit": "offon" }, "name": "Traction control, status"},
     {"id": "IS_TRC_TRAC_ENGINE", "path": "Tires", "fmt": {"bix": 1,  "len": 1, "max": 1, "unit": "offon" }, "name": "Traction control, engine status"},
@@ -607,7 +607,7 @@
     {"id": "IS_RR_WHEEL_VSC",    "path": "Tires", "fmt": {"bix": 10, "len": 1, "max": 1, "unit": "offon" }, "name": "Rear right wheel vehicle stability control status"},
     {"id": "IS_RL_WHEEL_VSC",    "path": "Tires", "fmt": {"bix": 11, "len": 1, "max": 1, "unit": "offon" }, "name": "Rear left wheel vehicle stability control status"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "5F"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2015, 2016, 2017, 2018, 2019, 2020, 2021], "from": 2023 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "5F"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2015, 2016, 2018, 2019, 2020, 2021], "from": 2023 },
   "signals": [
     {"id": "IS_FR_WHEEL_ABS_CTRL", "path": "Tires", "fmt": {           "len": 1, "max": 1, "unit": "offon" }, "name": "Front right wheel ABS status"},
     {"id": "IS_FL_WHEEL_ABS_CTRL", "path": "Tires", "fmt": {"bix": 1,  "len": 1, "max": 1, "unit": "offon" }, "name": "Front left wheel ABS status"},
@@ -618,15 +618,15 @@
     {"id": "IS_BA_CTRL_STATUS",    "path": "Tires", "fmt": {"bix": 11, "len": 1, "max": 1, "unit": "offon" }, "name": "Brake assist status"},
     {"id": "IS_PBA_CTRL_STATUS",   "path": "Tires", "fmt": {"bix": 12, "len": 1, "max": 1, "unit": "offon" }, "name": "Predictive brake assist status"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "A1"}, "freq": 3600, "dbgfilter": { "to": 2012, "from": 2015 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "A1"}, "freq": 3600, "dbgfilter": { "to": 2012, "years": [2015, 2016], "from": 2018 },
   "signals": [
     {"id": "IS_ZERO_POINT_OF_YAW_RATE", "path": "Orientation", "fmt": { "len": 8, "max": 127, "min": -128, "add": -128, "unit": "scalar" }, "name": "Zero point of yaw rate"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "A6"}, "freq": 30, "dbgfilter": { "to": 2012, "years": [2015, 2016, 2017, 2018, 2019, 2020, 2021], "from": 2023 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "A6"}, "freq": 30, "dbgfilter": { "to": 2012, "years": [2015, 2016, 2018, 2019, 2020, 2021], "from": 2023 },
   "signals": [
     {"id": "IS_INSPECTION_MODE", "path": "ECU", "fmt": { "len": 1, "max": 1, "unit": "offon" }, "name": "Inspection mode"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "BE"}, "freq": 0.25, "dbgfilter": { "to": 2012, "years": [2015, 2016, 2017, 2018, 2019, 2020, 2021], "from": 2023 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "BE"}, "freq": 0.25, "dbgfilter": { "to": 2012, "years": [2015, 2016, 2018, 2019, 2020, 2021], "from": 2023 },
   "signals": [
     {"id": "IS_FR_VSS_OPEN",            "path": "Movement",    "fmt": {           "len": 1, "max": 1, "unit": "noyes" }, "name": "Front right wheel speed"},
     {"id": "IS_FL_VSS_OPEN",            "path": "Movement",    "fmt": {"bix": 1,  "len": 1, "max": 1, "unit": "noyes" }, "name": "Front left wheel speed"},
@@ -680,22 +680,22 @@
   "signals": [
     {"id": "IS_STEERING_ANGLE", "path": "Control", "fmt": { "len": 16, "max": 410, "min": -410, "mul": 1.5, "sign": true, "unit": "degrees" }, "name": "Steering angle"}
   ]},
-{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "12"}, "freq": 2, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2017, 2018, 2019, 2020, 2021], "from": 2026 },
+{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "12"}, "freq": 2, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2018, 2019, 2020, 2021], "from": 2026 },
   "signals": [
     {"id": "IS_TAIL_CANCEL_LIGHT",       "path": "Lights", "fmt": {"bix": 2,  "len": 1, "max": 1, "unit": "offon" }, "name": "Tail cancel switch"},
     {"id": "IS_P_SEATBELT_BUCKLE_LIGHT", "path": "Lights", "fmt": {"bix": 8,  "len": 1, "max": 1, "unit": "offon" }, "name": "P-seatbelt buckle switch"},
     {"id": "IS_CHECK_ENGINE_LIGHT",      "path": "Lights", "fmt": {"bix": 15, "len": 1, "max": 1, "unit": "offon" }, "name": "Check engine switch"},
     {"id": "IS_EOP_LIGHT",               "path": "Lights", "fmt": {"bix": 35, "len": 1, "max": 1, "unit": "offon" }, "name": "Oil pressure switch"}
   ]},
-{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "13"}, "freq": 5, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022], "from": 2026 },
+{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "13"}, "freq": 5, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2018, 2019, 2020, 2021, 2022], "from": 2026 },
   "signals": [
     {"id": "IS_BAT_V", "path": "Battery", "fmt": { "len": 8, "max": 25.5, "div": 10, "unit": "volts" }, "name": "Battery voltage", "suggestedMetric": "starterBatteryVoltage"}
   ]},
-{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "21"}, "freq": 0.25, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2017, 2018, 2019, 2020, 2021], "from": 2026 },
+{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "21"}, "freq": 0.25, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2018, 2019, 2020, 2021], "from": 2026 },
   "signals": [
     {"id": "IS_VSS_7C0", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Speed", "suggestedMetric": "speed"}
   ]},
-{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "23"}, "freq": 5, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2017, 2018, 2019, 2020, 2021], "from": 2026 },
+{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "23"}, "freq": 5, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2018, 2019, 2020, 2021], "from": 2026 },
   "signals": [
     {"id": "IS_ECT_7C0", "path": "Engine", "fmt": { "len": 8, "max": 127.5, "div": 2, "unit": "celsius" }, "name": "Engine coolant temperature", "suggestedMetric": "engineCoolantTemperature"}
   ]},
@@ -715,7 +715,7 @@
   "signals": [
     {"id": "IS_KEY_REMIND_SOUND", "path": "Control", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Key remind sound"}
   ]},
-{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "A7"}, "freq": 2, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2017, 2018, 2019, 2020, 2021], "from": 2026 },
+{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "A7"}, "freq": 2, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2018, 2019, 2020, 2021], "from": 2026 },
   "signals": [
     {"id": "IS_SEAT_BELT_BEEP_DRIVER",    "path": "Seatbelts", "fmt": {          "len": 1, "max": 1, "unit": "offon" }, "name": "Seat belt beep, driver"},
     {"id": "IS_SEAT_BELT_BEEP_PASSENGER", "path": "Seatbelts", "fmt": {"bix": 1, "len": 1, "max": 1, "unit": "offon" }, "name": "Seat belt beep, passenger"},
