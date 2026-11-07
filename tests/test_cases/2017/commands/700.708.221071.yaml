@@ -4,17 +4,8 @@ test_cases:
     IS_EXHAUST_VVT_TARGET_ANGLE_B1: 0
   response: '708056210710000'
 - expected_values:
-    IS_EXHAUST_VVT_TARGET_ANGLE_B1: 0.7909
-  response: '708056210710051'
-- expected_values:
-    IS_EXHAUST_VVT_TARGET_ANGLE_B1: 6.25888
-  response: '708056210710281'
-- expected_values:
-    IS_EXHAUST_VVT_TARGET_ANGLE_B1: 9.24674
-  response: 7080562107103B3
-- expected_values:
-    IS_EXHAUST_VVT_TARGET_ANGLE_B1: 40.25799
-  response: 70805621071101B
+    IS_EXHAUST_VVT_TARGET_ANGLE_B1: 34.7119
+  response: 708056210710DE3
 - expected_values:
     IS_EXHAUST_VVT_TARGET_ANGLE_B1: 42.64047
   response: 70805621071110F

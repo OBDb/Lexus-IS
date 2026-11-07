@@ -10,5 +10,8 @@ test_cases:
     IS_ALT_DUTY_CYCLE: 19.5122
   response: 708056215FA0C80
 - expected_values:
+    IS_ALT_DUTY_CYCLE: 22.63415
+  response: 708056215FA0E80
+- expected_values:
     IS_ALT_DUTY_CYCLE: 25.7561
   response: 708056215FA1080
