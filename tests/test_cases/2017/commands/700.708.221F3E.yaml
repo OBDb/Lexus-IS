@@ -1,0 +1,32 @@
+command_id: 700.708.221F3E
+test_cases:
+- expected_values:
+    IS_CAT_T_BANK_1_SENSOR_2: 104.7
+  response: 70805621F3E05A7
+- expected_values:
+    IS_CAT_T_BANK_1_SENSOR_2: 132.6
+  response: 70805621F3E06BE
+- expected_values:
+    IS_CAT_T_BANK_1_SENSOR_2: 159.5
+  response: 70805621F3E07CB
+- expected_values:
+    IS_CAT_T_BANK_1_SENSOR_2: 427.3
+  response: 70805621F3E1241
+- expected_values:
+    IS_CAT_T_BANK_1_SENSOR_2: 629.1
+  response: 70805621F3E1A23
+- expected_values:
+    IS_CAT_T_BANK_1_SENSOR_2: 632.3
+  response: 70805621F3E1A43
+- expected_values:
+    IS_CAT_T_BANK_1_SENSOR_2: 654.4
+  response: 70805621F3E1B20
+- expected_values:
+    IS_CAT_T_BANK_1_SENSOR_2: 661.3
+  response: 70805621F3E1B65
+- expected_values:
+    IS_CAT_T_BANK_1_SENSOR_2: 671.3
+  response: 70805621F3E1BC9
+- expected_values:
+    IS_CAT_T_BANK_1_SENSOR_2: 716
+  response: 70805621F3E1D88

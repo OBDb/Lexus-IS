@@ -3,3 +3,30 @@ test_cases:
 - expected_values:
     IS_VSS_7C0: 0
   response: 7C803612100
+- expected_values:
+    IS_VSS_7C0: 14
+  response: 7C80361210E
+- expected_values:
+    IS_VSS_7C0: 15
+  response: 7C80361210F
+- expected_values:
+    IS_VSS_7C0: 23
+  response: 7C803612117
+- expected_values:
+    IS_VSS_7C0: 70
+  response: 7C803612146
+- expected_values:
+    IS_VSS_7C0: 85
+  response: 7C803612155
+- expected_values:
+    IS_VSS_7C0: 86
+  response: 7C803612156
+- expected_values:
+    IS_VSS_7C0: 109
+  response: 7C80361216D
+- expected_values:
+    IS_VSS_7C0: 112
+  response: 7C803612170
+- expected_values:
+    IS_VSS_7C0: 159
+  response: 7C80361219F

@@ -1,0 +1,14 @@
+command_id: 700.708.221074
+test_cases:
+- expected_values:
+    IS_EOP: 132.8125
+  response: 7080562107406A4
+- expected_values:
+    IS_EOP: 461.48438
+  response: '708056210741713'
+- expected_values:
+    IS_EOP: 517.65625
+  response: '7080562107419E2'
+- expected_values:
+    IS_EOP: 564.92188
+  response: 708056210741C3F

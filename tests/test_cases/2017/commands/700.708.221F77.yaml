@@ -1,0 +1,50 @@
+command_id: 700.708.221F77
+test_cases:
+- expected_values:
+    IS_IAT_B1S1: 49
+    IS_IAT_B1S2: -40
+  response: |-
+    7081008621F77015900
+    7082100000000000000
+- expected_values:
+    IS_IAT_B1S1: 50
+    IS_IAT_B1S2: -40
+  response: |-
+    7081008621F77015A00
+    7082100000000000000
+- expected_values:
+    IS_IAT_B1S1: 51
+    IS_IAT_B1S2: -40
+  response: |-
+    7081008621F77015B00
+    7082100000000000000
+- expected_values:
+    IS_IAT_B1S1: 53
+    IS_IAT_B1S2: -40
+  response: |-
+    7081008621F77015D00
+    7082100000000000000
+- expected_values:
+    IS_IAT_B1S1: 54
+    IS_IAT_B1S2: -40
+  response: |-
+    7081008621F77015E00
+    7082100000000000000
+- expected_values:
+    IS_IAT_B1S1: 56
+    IS_IAT_B1S2: -40
+  response: |-
+    7081008621F77016000
+    7082100000000000000
+- expected_values:
+    IS_IAT_B1S1: 57
+    IS_IAT_B1S2: -40
+  response: |-
+    7081008621F77016100
+    7082100000000000000
+- expected_values:
+    IS_IAT_B1S1: 65
+    IS_IAT_B1S2: -40
+  response: |-
+    7081008621F77016900
+    7082100000000000000
