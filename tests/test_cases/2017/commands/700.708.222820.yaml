@@ -1,0 +1,20 @@
+command_id: 700.708.222820
+test_cases:
+- expected_values:
+    IS_INTERCOOLER_WATER: 0
+  response: '708056228200000'
+- expected_values:
+    IS_INTERCOOLER_WATER: 53.36995
+  response: '708056228202228'
+- expected_values:
+    IS_INTERCOOLER_WATER: 54.9752
+  response: 70805622820232F
+- expected_values:
+    IS_INTERCOOLER_WATER: 57.72183
+  response: 7080562282024F1
+- expected_values:
+    IS_INTERCOOLER_WATER: 59.99847
+  response: '708056228202666'
+- expected_values:
+    IS_INTERCOOLER_WATER: 83.27764
+  response: 70805622820354C

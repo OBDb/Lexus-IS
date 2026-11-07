@@ -1,0 +1,32 @@
+command_id: 700.708.221017
+test_cases:
+- expected_values:
+    IS_INJ_VOL: 0
+  response: '708056210170000'
+- expected_values:
+    IS_INJ_VOL: 0.16562
+  response: '708056210170212'
+- expected_values:
+    IS_INJ_VOL: 0.81594
+  response: 708056210170A33
+- expected_values:
+    IS_INJ_VOL: 1.34969
+  response: 7080562101710DF
+- expected_values:
+    IS_INJ_VOL: 1.47
+  response: '708056210171260'
+- expected_values:
+    IS_INJ_VOL: 1.84156
+  response: '708056210171705'
+- expected_values:
+    IS_INJ_VOL: 1.95438
+  response: 70805621017186E
+- expected_values:
+    IS_INJ_VOL: 2.51688
+  response: 708056210171F76
+- expected_values:
+    IS_INJ_VOL: 2.79
+  response: '7080562101722E0'
+- expected_values:
+    IS_INJ_VOL: 11.70062
+  response: '708056210179242'

@@ -1,0 +1,26 @@
+command_id: 700.708.221075
+test_cases:
+- expected_values:
+    IS_IWP_SPEED: 32973
+  response: 7080562107580CD
+- expected_values:
+    IS_IWP_SPEED: 33051
+  response: 70805621075811B
+- expected_values:
+    IS_IWP_SPEED: 36339
+  response: 708056210758DF3
+- expected_values:
+    IS_IWP_SPEED: 37719
+  response: '708056210759357'
+- expected_values:
+    IS_IWP_SPEED: 38018
+  response: '708056210759482'
+- expected_values:
+    IS_IWP_SPEED: 38147
+  response: '708056210759503'
+- expected_values:
+    IS_IWP_SPEED: 40767
+  response: 708056210759F3F
+- expected_values:
+    IS_IWP_SPEED: 40914
+  response: 708056210759FD2

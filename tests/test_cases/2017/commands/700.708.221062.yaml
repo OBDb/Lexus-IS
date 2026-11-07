@@ -1,0 +1,32 @@
+command_id: 700.708.221062
+test_cases:
+- expected_values:
+    IS_EXHAUST_VVT_OCV_CONTROL_DUTY: 12.95796
+  response: 70805621062084B
+- expected_values:
+    IS_EXHAUST_VVT_OCV_CONTROL_DUTY: 20.55085
+  response: 708056210620D27
+- expected_values:
+    IS_EXHAUST_VVT_OCV_CONTROL_DUTY: 26.05631
+  response: 7080562106210AD
+- expected_values:
+    IS_EXHAUST_VVT_OCV_CONTROL_DUTY: 29.49874
+  response: '7080562106212E1'
+- expected_values:
+    IS_EXHAUST_VVT_OCV_CONTROL_DUTY: 30.15793
+  response: 70805621062134D
+- expected_values:
+    IS_EXHAUST_VVT_OCV_CONTROL_DUTY: 30.50584
+  response: '708056210621386'
+- expected_values:
+    IS_EXHAUST_VVT_OCV_CONTROL_DUTY: 30.53635
+  response: 70805621062138B
+- expected_values:
+    IS_EXHAUST_VVT_OCV_CONTROL_DUTY: 40.0824
+  response: 7080562106219A7
+- expected_values:
+    IS_EXHAUST_VVT_OCV_CONTROL_DUTY: 41.46181
+  response: 708056210621A89
+- expected_values:
+    IS_EXHAUST_VVT_OCV_CONTROL_DUTY: 47.8706
+  response: 708056210621EA3

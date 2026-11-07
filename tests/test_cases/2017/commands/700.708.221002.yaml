@@ -1,0 +1,32 @@
+command_id: 700.708.221002
+test_cases:
+- expected_values:
+    IS_12V_V: 13.457
+  response: 708056210022B10
+- expected_values:
+    IS_12V_V: 13.48629
+  response: 708056210022B28
+- expected_values:
+    IS_12V_V: 13.49606
+  response: 708056210022B30
+- expected_values:
+    IS_12V_V: 13.50094
+  response: 708056210022B34
+- expected_values:
+    IS_12V_V: 13.50582
+  response: 708056210022B38
+- expected_values:
+    IS_12V_V: 13.52536
+  response: 708056210022B48
+- expected_values:
+    IS_12V_V: 13.54977
+  response: 708056210022B5C
+- expected_values:
+    IS_12V_V: 13.57418
+  response: 708056210022B70
+- expected_values:
+    IS_12V_V: 13.62301
+  response: 708056210022B98
+- expected_values:
+    IS_12V_V: 13.65719
+  response: 708056210022BB4

@@ -1,0 +1,23 @@
+command_id: 700.708.221F46
+test_cases:
+- expected_values:
+    IS_AAT: 30
+  response: 70804621F4646
+- expected_values:
+    IS_AAT: 31
+  response: 70804621F4647
+- expected_values:
+    IS_AAT: 34
+  response: 70804621F464A
+- expected_values:
+    IS_AAT: 35
+  response: 70804621F464B
+- expected_values:
+    IS_AAT: 46
+  response: 70804621F4656
+- expected_values:
+    IS_AAT: 51
+  response: 70804621F465B
+- expected_values:
+    IS_AAT: 56
+  response: 70804621F4660

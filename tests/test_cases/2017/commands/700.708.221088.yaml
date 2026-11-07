@@ -1,0 +1,32 @@
+command_id: 700.708.221088
+test_cases:
+- expected_values:
+    IS_EXHAUST_VVT_ANGLE_B1: 0
+  response: '708056210880000'
+- expected_values:
+    IS_EXHAUST_VVT_ANGLE_B1: 0.06835
+  response: '708056210880007'
+- expected_values:
+    IS_EXHAUST_VVT_ANGLE_B1: 0.14646
+  response: 70805621088000F
+- expected_values:
+    IS_EXHAUST_VVT_ANGLE_B1: 0.36128
+  response: '708056210880025'
+- expected_values:
+    IS_EXHAUST_VVT_ANGLE_B1: 0.63468
+  response: '708056210880041'
+- expected_values:
+    IS_EXHAUST_VVT_ANGLE_B1: 9.85213
+  response: 7080562108803F1
+- expected_values:
+    IS_EXHAUST_VVT_ANGLE_B1: 15.13458
+  response: 70805621088060E
+- expected_values:
+    IS_EXHAUST_VVT_ANGLE_B1: 15.58374
+  response: 70805621088063C
+- expected_values:
+    IS_EXHAUST_VVT_ANGLE_B1: 37.22131
+  response: 708056210880EE4
+- expected_values:
+    IS_EXHAUST_VVT_ANGLE_B1: 39.96507
+  response: 708056210880FFD

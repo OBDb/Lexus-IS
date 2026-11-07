@@ -1,5 +1,32 @@
 command_id: 7C0.7C8.2123
 test_cases:
 - expected_values:
+    IS_ECT_7C0: 74
+  response: 7C803612394
+- expected_values:
+    IS_ECT_7C0: 74.5
+  response: 7C803612395
+- expected_values:
+    IS_ECT_7C0: 75
+  response: 7C803612396
+- expected_values:
+    IS_ECT_7C0: 81
+  response: 7C8036123A2
+- expected_values:
+    IS_ECT_7C0: 83.5
+  response: 7C8036123A7
+- expected_values:
+    IS_ECT_7C0: 85.5
+  response: 7C8036123AB
+- expected_values:
+    IS_ECT_7C0: 86.5
+  response: 7C8036123AD
+- expected_values:
+    IS_ECT_7C0: 88.5
+  response: 7C8036123B1
+- expected_values:
+    IS_ECT_7C0: 94
+  response: 7C8036123BC
+- expected_values:
     IS_ECT_7C0: 94.5
   response: 7C8036123BD

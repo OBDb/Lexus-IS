@@ -1,0 +1,17 @@
+command_id: 701.709.220103
+test_cases:
+- expected_values:
+    IS_ODO: 209200
+  response: '7090762010302033130'
+- expected_values:
+    IS_ODO: 209201
+  response: '7090762010302033131'
+- expected_values:
+    IS_ODO: 209202
+  response: '7090762010302033132'
+- expected_values:
+    IS_ODO: 209203
+  response: '7090762010302033133'
+- expected_values:
+    IS_ODO: 209205
+  response: '7090762010302033135'
