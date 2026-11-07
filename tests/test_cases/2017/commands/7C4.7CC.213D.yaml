@@ -22,6 +22,9 @@ test_cases:
     IS_ADJUSTED_AMBIENT_T: 30.96
   response: 7CC03613DC1
 - expected_values:
+    IS_ADJUSTED_AMBIENT_T: 31.28
+  response: 7CC03613DC2
+- expected_values:
     IS_ADJUSTED_AMBIENT_T: 31.6
   response: 7CC03613DC3
 - expected_values:

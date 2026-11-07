@@ -15,3 +15,6 @@ test_cases:
 - expected_values:
     IS_EXHAUST_VVT_TARGET_ANGLE_B1: 40.25799
   response: 70805621071101B
+- expected_values:
+    IS_EXHAUST_VVT_TARGET_ANGLE_B1: 42.64047
+  response: 70805621071110F

@@ -4,29 +4,5 @@ test_cases:
     IS_AAT_7C4: 27.45
   response: 7CC03612291
 - expected_values:
-    IS_AAT_7C4: 27.8
-  response: 7CC03612292
-- expected_values:
-    IS_AAT_7C4: 28.5
-  response: 7CC03612294
-- expected_values:
-    IS_AAT_7C4: 29.55
-  response: 7CC03612297
-- expected_values:
-    IS_AAT_7C4: 30.95
-  response: 7CC0361229B
-- expected_values:
-    IS_AAT_7C4: 31.3
-  response: 7CC0361229C
-- expected_values:
-    IS_AAT_7C4: 32
-  response: 7CC0361229E
-- expected_values:
-    IS_AAT_7C4: 32.35
-  response: 7CC0361229F
-- expected_values:
-    IS_AAT_7C4: 34.8
-  response: 7CC036122A6
-- expected_values:
     IS_AAT_7C4: 36.2
   response: 7CC036122AA

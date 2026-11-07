@@ -23,8 +23,18 @@ test_cases:
 - expected_values:
     IS_ACCEL_PEDAL: 8.45094
   response: |-
+    708100A621059355E29
+    708215205AB00000000
+- expected_values:
+    IS_ACCEL_PEDAL: 8.45094
+  response: |-
     708100A621059355E2A
     7082153052B00000000
+- expected_values:
+    IS_ACCEL_PEDAL: 11.26785
+  response: |-
+    708100A621059396329
+    708215207CA00000000
 - expected_values:
     IS_ACCEL_PEDAL: 13.38052
   response: |-

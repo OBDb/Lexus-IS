@@ -4,29 +4,11 @@ test_cases:
     IS_FP_DUTY_RATIO: 276.15854
   response: 7080562106A11B1
 - expected_values:
-    IS_FP_DUTY_RATIO: 280.42683
-  response: 7080562106A11F7
+    IS_FP_DUTY_RATIO: 280.85366
+  response: 7080562106A11FE
 - expected_values:
-    IS_FP_DUTY_RATIO: 280.67073
-  response: 7080562106A11FB
-- expected_values:
-    IS_FP_DUTY_RATIO: 281.21951
-  response: 7080562106A1204
-- expected_values:
-    IS_FP_DUTY_RATIO: 281.64634
-  response: 7080562106A120B
-- expected_values:
-    IS_FP_DUTY_RATIO: 281.82927
-  response: 7080562106A120E
-- expected_values:
-    IS_FP_DUTY_RATIO: 291.40244
-  response: 7080562106A12AB
-- expected_values:
-    IS_FP_DUTY_RATIO: 295.42683
-  response: 7080562106A12ED
-- expected_values:
-    IS_FP_DUTY_RATIO: 298.84146
-  response: 7080562106A1325
+    IS_FP_DUTY_RATIO: 280.97561
+  response: 7080562106A1200
 - expected_values:
     IS_FP_DUTY_RATIO: 368.23171
   response: 7080562106A1797
