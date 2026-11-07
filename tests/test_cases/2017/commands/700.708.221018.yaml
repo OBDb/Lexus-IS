@@ -1,8 +1,8 @@
 command_id: 700.708.221018
 test_cases:
 - expected_values:
-    IS_INJECTOR_PORT: 2.779
-  response: 708056210180ADB
+    IS_INJECTOR_PORT: 2.646
+  response: 708056210180A56
 - expected_values:
     IS_INJECTOR_PORT: 2.802
   response: 708056210180AF2
@@ -10,5 +10,5 @@ test_cases:
     IS_INJECTOR_PORT: 3.842
   response: 708056210180F02
 - expected_values:
-    IS_INJECTOR_PORT: 4.932
-  response: '708056210181344'
+    IS_INJECTOR_PORT: 4.925
+  response: 70805621018133D

@@ -25,6 +25,12 @@ test_cases:
     7081008621F77015B00
     7082100000000000000
 - expected_values:
+    IS_IAT_B1S1: 52
+    IS_IAT_B1S2: -40
+  response: |-
+    7081008621F77015C00
+    7082100000000000000
+- expected_values:
     IS_IAT_B1S1: 53
     IS_IAT_B1S2: -40
   response: |-

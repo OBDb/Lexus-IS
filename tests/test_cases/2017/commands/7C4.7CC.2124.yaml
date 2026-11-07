@@ -7,8 +7,17 @@ test_cases:
     IS_SOLAR_DRIVER: 4
   response: 7CC03612404
 - expected_values:
+    IS_SOLAR_DRIVER: 7
+  response: 7CC03612407
+- expected_values:
+    IS_SOLAR_DRIVER: 14
+  response: 7CC0361240E
+- expected_values:
     IS_SOLAR_DRIVER: 15
   response: 7CC0361240F
+- expected_values:
+    IS_SOLAR_DRIVER: 20
+  response: 7CC03612414
 - expected_values:
     IS_SOLAR_DRIVER: 24
   response: 7CC03612418

@@ -4,11 +4,11 @@ test_cases:
     IS_CAT_T_BANK_1_SENSOR_2: 104.7
   response: 70805621F3E05A7
 - expected_values:
+    IS_CAT_T_BANK_1_SENSOR_2: 397.7
+  response: 70805621F3E1119
+- expected_values:
     IS_CAT_T_BANK_1_SENSOR_2: 446
   response: 70805621F3E12FC
-- expected_values:
-    IS_CAT_T_BANK_1_SENSOR_2: 654.4
-  response: 70805621F3E1B20
 - expected_values:
     IS_CAT_T_BANK_1_SENSOR_2: 716
   response: 70805621F3E1D88

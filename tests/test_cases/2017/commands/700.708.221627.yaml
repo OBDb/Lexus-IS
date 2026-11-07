@@ -4,29 +4,8 @@ test_cases:
     IS_ATF_T_PAN_V3: 55
   response: 708056216275F00
 - expected_values:
-    IS_ATF_T_PAN_V3: 55.625
-  response: 708056216275FA0
-- expected_values:
     IS_ATF_T_PAN_V3: 56.875
   response: '7080562162760E0'
-- expected_values:
-    IS_ATF_T_PAN_V3: 57.5
-  response: '708056216276180'
-- expected_values:
-    IS_ATF_T_PAN_V3: 58.75
-  response: 7080562162762C0
-- expected_values:
-    IS_ATF_T_PAN_V3: 60.625
-  response: 7080562162764A0
-- expected_values:
-    IS_ATF_T_PAN_V3: 71.875
-  response: 708056216276FE0
-- expected_values:
-    IS_ATF_T_PAN_V3: 75.625
-  response: 7080562162773A0
-- expected_values:
-    IS_ATF_T_PAN_V3: 77.5
-  response: '708056216277580'
 - expected_values:
     IS_ATF_T_PAN_V3: 80
   response: '708056216277800'
