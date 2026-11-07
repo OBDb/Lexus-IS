@@ -1,6 +1,10 @@
 command_id: 700.708.221041
 test_cases:
 - expected_values:
+    IS_ECT_IGN: 32.5
+    IS_ECT_INIT: 33.125
+  response: '708056210417475'
+- expected_values:
     IS_ECT_IGN: 62.5
     IS_ECT_INIT: 62.5
   response: 70805621041A4A4

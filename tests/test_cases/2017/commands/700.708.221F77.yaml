@@ -1,6 +1,12 @@
 command_id: 700.708.221F77
 test_cases:
 - expected_values:
+    IS_IAT_B1S1: 48
+    IS_IAT_B1S2: -40
+  response: |-
+    7081008621F77015800
+    7082100000000000000
+- expected_values:
     IS_IAT_B1S1: 49
     IS_IAT_B1S2: -40
   response: |-

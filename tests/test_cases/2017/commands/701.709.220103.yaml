@@ -15,3 +15,9 @@ test_cases:
 - expected_values:
     IS_ODO: 209205
   response: '7090762010302033135'
+- expected_values:
+    IS_ODO: 209215
+  response: 709076201030203313F
+- expected_values:
+    IS_ODO: 209216
+  response: '7090762010302033140'

@@ -4,29 +4,8 @@ test_cases:
     IS_LFPS: -2886.8
   response: 708056210CD8F3C
 - expected_values:
-    IS_LFPS: -2883.9
-  response: 708056210CD8F59
-- expected_values:
-    IS_LFPS: -2878.8
-  response: 708056210CD8F8C
-- expected_values:
-    IS_LFPS: -2878.6
-  response: 708056210CD8F8E
-- expected_values:
-    IS_LFPS: -2878
-  response: 708056210CD8F94
-- expected_values:
-    IS_LFPS: -2877.8
-  response: 708056210CD8F96
-- expected_values:
-    IS_LFPS: -2874.7
-  response: 708056210CD8FB5
-- expected_values:
-    IS_LFPS: -2872.2
-  response: 708056210CD8FCE
-- expected_values:
-    IS_LFPS: -2860
-  response: 708056210CD9048
+    IS_LFPS: -2871.5
+  response: 708056210CD8FD5
 - expected_values:
     IS_LFPS: -2652.2
   response: 708056210CD9866

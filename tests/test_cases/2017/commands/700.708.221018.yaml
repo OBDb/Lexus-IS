@@ -10,5 +10,5 @@ test_cases:
     IS_INJECTOR_PORT: 3.842
   response: 708056210180F02
 - expected_values:
-    IS_INJECTOR_PORT: 4.732
-  response: 70805621018127C
+    IS_INJECTOR_PORT: 4.932
+  response: '708056210181344'

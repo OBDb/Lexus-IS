@@ -10,6 +10,9 @@ test_cases:
     IS_IWP_SPEED: 36339
   response: 708056210758DF3
 - expected_values:
+    IS_IWP_SPEED: 36353
+  response: '708056210758E01'
+- expected_values:
     IS_IWP_SPEED: 37719
   response: '708056210759357'
 - expected_values:

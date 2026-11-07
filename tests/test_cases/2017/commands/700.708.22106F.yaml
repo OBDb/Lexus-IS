@@ -4,6 +4,9 @@ test_cases:
     IS_INTAKE_VVT_TARGET_ANGLE_B1: 10.05718
   response: 7080562106F0406
 - expected_values:
+    IS_INTAKE_VVT_TARGET_ANGLE_B1: 11.26794
+  response: 7080562106F0482
+- expected_values:
     IS_INTAKE_VVT_TARGET_ANGLE_B1: 29.99577
   response: 7080562106F0C00
 - expected_values:

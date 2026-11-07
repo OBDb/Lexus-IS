@@ -4,5 +4,8 @@ test_cases:
     IS_EXH_VVT_HOLD_LEARN_1: 44.66725
   response: 708056210891C98
 - expected_values:
+    IS_EXH_VVT_HOLD_LEARN_1: 46.25989
+  response: 708056210891D9D
+- expected_values:
     IS_EXH_VVT_HOLD_LEARN_1: 52.23383
   response: '708056210892170'

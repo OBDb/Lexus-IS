@@ -4,29 +4,11 @@ test_cases:
     IS_CAT_T_BANK_1_SENSOR_1: 114.3
   response: 70805621F3C0607
 - expected_values:
-    IS_CAT_T_BANK_1_SENSOR_1: 128.4
-  response: 70805621F3C0694
-- expected_values:
     IS_CAT_T_BANK_1_SENSOR_1: 164.6
   response: 70805621F3C07FE
 - expected_values:
-    IS_CAT_T_BANK_1_SENSOR_1: 389.7
-  response: 70805621F3C10C9
-- expected_values:
-    IS_CAT_T_BANK_1_SENSOR_1: 596.6
-  response: 70805621F3C18DE
-- expected_values:
-    IS_CAT_T_BANK_1_SENSOR_1: 611.2
-  response: 70805621F3C1970
-- expected_values:
-    IS_CAT_T_BANK_1_SENSOR_1: 651
-  response: 70805621F3C1AFE
-- expected_values:
-    IS_CAT_T_BANK_1_SENSOR_1: 658
-  response: 70805621F3C1B44
-- expected_values:
-    IS_CAT_T_BANK_1_SENSOR_1: 662.2
-  response: 70805621F3C1B6E
+    IS_CAT_T_BANK_1_SENSOR_1: 395.2
+  response: 70805621F3C1100
 - expected_values:
     IS_CAT_T_BANK_1_SENSOR_1: 720.8
   response: 70805621F3C1DB8
