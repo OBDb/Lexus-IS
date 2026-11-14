@@ -10,6 +10,14 @@ test_cases:
     7582A10086210040000
     7582A21000000000000
 - expected_values:
+    IS_TT_1: 15
+    IS_TT_2: 18
+    IS_TT_3: 16
+    IS_TT_4: 18
+  response: |-
+    7582A1008621004373A
+    7582A21383A00000000
+- expected_values:
     IS_TT_1: 16
     IS_TT_2: 16
     IS_TT_3: 15
