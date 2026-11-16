@@ -9,3 +9,9 @@ test_cases:
 - expected_values:
     IS_MASTER_CYL_TEMP: 27
   response: 7B8056210066B00
+- expected_values:
+    IS_MASTER_CYL_TEMP: 29
+  response: 7B8056210066D00
+- expected_values:
+    IS_MASTER_CYL_TEMP: 30
+  response: 7B8056210066E00
