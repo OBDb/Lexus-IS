@@ -1,5 +1,6 @@
 command_id: 701.709.220103
 test_cases:
 - expected_values:
-    IS_ODO: 9943
+    IS_ODO_RAW: 9943
+    IS_ODO_UNIT: MI
   response: 70907620103020026D7

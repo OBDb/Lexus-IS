@@ -1,26 +1,34 @@
 command_id: 701.709.220103
 test_cases:
 - expected_values:
-    IS_ODO: 209200
+    IS_ODO_RAW: 209200
+    IS_ODO_UNIT: MI
   response: '7090762010302033130'
 - expected_values:
-    IS_ODO: 209201
+    IS_ODO_RAW: 209201
+    IS_ODO_UNIT: MI
   response: '7090762010302033131'
 - expected_values:
-    IS_ODO: 209202
+    IS_ODO_RAW: 209202
+    IS_ODO_UNIT: MI
   response: '7090762010302033132'
 - expected_values:
-    IS_ODO: 209203
+    IS_ODO_RAW: 209203
+    IS_ODO_UNIT: MI
   response: '7090762010302033133'
 - expected_values:
-    IS_ODO: 209205
+    IS_ODO_RAW: 209205
+    IS_ODO_UNIT: MI
   response: '7090762010302033135'
 - expected_values:
-    IS_ODO: 209215
+    IS_ODO_RAW: 209215
+    IS_ODO_UNIT: MI
   response: 709076201030203313F
 - expected_values:
-    IS_ODO: 209216
+    IS_ODO_RAW: 209216
+    IS_ODO_UNIT: MI
   response: '7090762010302033140'
 - expected_values:
-    IS_ODO: 209217
+    IS_ODO_RAW: 209217
+    IS_ODO_UNIT: MI
   response: '7090762010302033141'
